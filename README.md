@@ -9,12 +9,40 @@ Static assets prepared for an external CDN-backed repository.
 - `uikit/uikit.min.js`
 - `uikit/uikit.min.css`
 
-## Refresh assets
+## Refresh assets only
 
 Run from repo root:
 
 ```bash
 pnpm sync:static-assets
+```
+
+## Publish assets repository
+
+Run from repo root:
+
+```bash
+pnpm publish:static-assets -- -m "Update static assets"
+```
+
+Create and push a new release tag at the same time:
+
+```bash
+pnpm publish:static-assets -- -m "Release static assets" --tag v1.0.1
+```
+
+## Push Twikoo with static assets together
+
+The main Twikoo push flow now syncs and publishes this repository first:
+
+```bash
+pnpm push:my-tw -- -m "Update custom Twikoo"
+```
+
+If needed, skip the static assets step:
+
+```bash
+pnpm push:my-tw -- -m "Update custom Twikoo" --skip-static-assets
 ```
 
 ## Future CDN wiring
