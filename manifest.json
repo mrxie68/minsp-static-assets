@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T02:53:03.342Z",
+  "generatedAt": "2026-10-01T05:23:23.508Z",
   "assets": [
     {
       "from": "apps/twikoo/public/twikoo.min.js",
@@ -25,11 +25,6 @@
       "from": "public/css/uikit.min.css",
       "to": "apps/minsp-static-assets/uikit/uikit.min.css",
       "size": 283791
-    },
-    {
-      "from": "public/css/photoswipe.css",
-      "to": "apps/minsp-static-assets/photoswipe/photoswipe.css",
-      "size": 7423
     }
   ]
 }
