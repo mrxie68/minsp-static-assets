@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-07T13:50:30.635Z",
+  "generatedAt": "2026-10-13T01:24:43.012Z",
   "assets": [
     {
       "from": "apps/twikoo/public/twikoo.min.js",
       "to": "apps/minsp-static-assets/twikoo/twikoo.min.js",
-      "size": 828875
+      "size": 829329
     },
     {
       "from": "apps/twikoo/public/twikoo.min.js.LICENSE.txt",
       "to": "apps/minsp-static-assets/twikoo/twikoo.min.js.LICENSE.txt",
-      "size": 763
+      "size": 764
     },
     {
       "from": "apps/twikoo/public/twikoo.css",
       "to": "apps/minsp-static-assets/twikoo/twikoo.css",
-      "size": 194075
+      "size": 194076
     },
     {
       "from": "public/js/uikit.min.js",
