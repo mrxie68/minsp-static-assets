@@ -2,7 +2,7 @@
  * Twikoo v1.7.14-custom
  * (c) 2020-2026 iMaeGoo
  * Released under the MIT License.
- * Last Update: 2026/10/25 19:32:46
+ * Last Update: 2026/11/14 20:40:49
  */
 .el-button{display:inline-block;line-height:1;white-space:nowrap;cursor:pointer;background:#FFF;border:1px solid #DCDFE6;color:#606266;-webkit-appearance:none;text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0;margin:0;-webkit-transition:.1s;transition:.1s;font-weight:500;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;padding:12px 20px;font-size:14px;border-radius:4px}.el-button+.el-button{margin-left:10px}.el-button:focus,.el-button:hover{color:#409EFF;border-color:#c6e2ff;background-color:#ecf5ff}.el-button:active{color:#3a8ee6;border-color:#3a8ee6;outline:0}.el-button::-moz-focus-inner{border:0}.el-button [class*=el-icon-]+span{margin-left:5px}.el-button.is-plain:focus,.el-button.is-plain:hover{background:#FFF;border-color:#409EFF;color:#409EFF}.el-button.is-active,.el-button.is-plain:active{color:#3a8ee6;border-color:#3a8ee6}.el-button.is-plain:active{background:#FFF;outline:0}.el-button.is-disabled,.el-button.is-disabled:focus,.el-button.is-disabled:hover{color:#C0C4CC;cursor:not-allowed;background-image:none;background-color:#FFF;border-color:#EBEEF5}.el-button.is-disabled.el-button--text{background-color:transparent}.el-button.is-disabled.is-plain,.el-button.is-disabled.is-plain:focus,.el-button.is-disabled.is-plain:hover{background-color:#FFF;border-color:#EBEEF5;color:#C0C4CC}.el-button.is-loading{position:relative;pointer-events:none}.el-button.is-loading:before{pointer-events:none;content:'';position:absolute;left:-1px;top:-1px;right:-1px;bottom:-1px;border-radius:inherit;background-color:rgba(255,255,255,.35)}.el-button.is-round{border-radius:20px;padding:12px 23px}.el-button.is-circle{border-radius:50%;padding:12px}.el-button--primary{color:#FFF;background-color:#409EFF;border-color:#409EFF}.el-button--primary:focus,.el-button--primary:hover{background:#66b1ff;border-color:#66b1ff;color:#FFF}.el-button--primary:active{background:#3a8ee6;border-color:#3a8ee6;color:#FFF;outline:0}.el-button--primary.is-active{background:#3a8ee6;border-color:#3a8ee6;color:#FFF}.el-button--primary.is-disabled,.el-button--primary.is-disabled:active,.el-button--primary.is-disabled:focus,.el-button--primary.is-disabled:hover{color:#FFF;background-color:#a0cfff;border-color:#a0cfff}.el-button--primary.is-plain{color:#409EFF;background:#ecf5ff;border-color:#b3d8ff}.el-button--primary.is-plain:focus,.el-button--primary.is-plain:hover{background:#409EFF;border-color:#409EFF;color:#FFF}.el-button--primary.is-plain:active{background:#3a8ee6;border-color:#3a8ee6;color:#FFF;outline:0}.el-button--primary.is-plain.is-disabled,.el-button--primary.is-plain.is-disabled:active,.el-button--primary.is-plain.is-disabled:focus,.el-button--primary.is-plain.is-disabled:hover{color:#8cc5ff;background-color:#ecf5ff;border-color:#d9ecff}.el-button--success{color:#FFF;background-color:#67C23A;border-color:#67C23A}.el-button--success:focus,.el-button--success:hover{background:#85ce61;border-color:#85ce61;color:#FFF}.el-button--success.is-active,.el-button--success:active{background:#5daf34;border-color:#5daf34;color:#FFF}.el-button--success:active{outline:0}.el-button--success.is-disabled,.el-button--success.is-disabled:active,.el-button--success.is-disabled:focus,.el-button--success.is-disabled:hover{color:#FFF;background-color:#b3e19d;border-color:#b3e19d}.el-button--success.is-plain{color:#67C23A;background:#f0f9eb;border-color:#c2e7b0}.el-button--success.is-plain:focus,.el-button--success.is-plain:hover{background:#67C23A;border-color:#67C23A;color:#FFF}.el-button--success.is-plain:active{background:#5daf34;border-color:#5daf34;color:#FFF;outline:0}.el-button--success.is-plain.is-disabled,.el-button--success.is-plain.is-disabled:active,.el-button--success.is-plain.is-disabled:focus,.el-button--success.is-plain.is-disabled:hover{color:#a4da89;background-color:#f0f9eb;border-color:#e1f3d8}.el-button--warning{color:#FFF;background-color:#E6A23C;border-color:#E6A23C}.el-button--warning:focus,.el-button--warning:hover{background:#ebb563;border-color:#ebb563;color:#FFF}.el-button--warning.is-active,.el-button--warning:active{background:#cf9236;border-color:#cf9236;color:#FFF}.el-button--warning:active{outline:0}.el-button--warning.is-disabled,.el-button--warning.is-disabled:active,.el-button--warning.is-disabled:focus,.el-button--warning.is-disabled:hover{color:#FFF;background-color:#f3d19e;border-color:#f3d19e}.el-button--warning.is-plain{color:#E6A23C;background:#fdf6ec;border-color:#f5dab1}.el-button--warning.is-plain:focus,.el-button--warning.is-plain:hover{background:#E6A23C;border-color:#E6A23C;color:#FFF}.el-button--warning.is-plain:active{background:#cf9236;border-color:#cf9236;color:#FFF;outline:0}.el-button--warning.is-plain.is-disabled,.el-button--warning.is-plain.is-disabled:active,.el-button--warning.is-plain.is-disabled:focus,.el-button--warning.is-plain.is-disabled:hover{color:#f0c78a;background-color:#fdf6ec;border-color:#faecd8}.el-button--danger{color:#FFF;background-color:#F56C6C;border-color:#F56C6C}.el-button--danger:focus,.el-button--danger:hover{background:#f78989;border-color:#f78989;color:#FFF}.el-button--danger.is-active,.el-button--danger:active{background:#dd6161;border-color:#dd6161;color:#FFF}.el-button--danger:active{outline:0}.el-button--danger.is-disabled,.el-button--danger.is-disabled:active,.el-button--danger.is-disabled:focus,.el-button--danger.is-disabled:hover{color:#FFF;background-color:#fab6b6;border-color:#fab6b6}.el-button--danger.is-plain{color:#F56C6C;background:#fef0f0;border-color:#fbc4c4}.el-button--danger.is-plain:focus,.el-button--danger.is-plain:hover{background:#F56C6C;border-color:#F56C6C;color:#FFF}.el-button--danger.is-plain:active{background:#dd6161;border-color:#dd6161;color:#FFF;outline:0}.el-button--danger.is-plain.is-disabled,.el-button--danger.is-plain.is-disabled:active,.el-button--danger.is-plain.is-disabled:focus,.el-button--danger.is-plain.is-disabled:hover{color:#f9a7a7;background-color:#fef0f0;border-color:#fde2e2}.el-button--info{color:#FFF;background-color:#909399;border-color:#909399}.el-button--info:focus,.el-button--info:hover{background:#a6a9ad;border-color:#a6a9ad;color:#FFF}.el-button--info.is-active,.el-button--info:active{background:#82848a;border-color:#82848a;color:#FFF}.el-button--info:active{outline:0}.el-button--info.is-disabled,.el-button--info.is-disabled:active,.el-button--info.is-disabled:focus,.el-button--info.is-disabled:hover{color:#FFF;background-color:#c8c9cc;border-color:#c8c9cc}.el-button--info.is-plain{color:#909399;background:#f4f4f5;border-color:#d3d4d6}.el-button--info.is-plain:focus,.el-button--info.is-plain:hover{background:#909399;border-color:#909399;color:#FFF}.el-button--info.is-plain:active{background:#82848a;border-color:#82848a;color:#FFF;outline:0}.el-button--info.is-plain.is-disabled,.el-button--info.is-plain.is-disabled:active,.el-button--info.is-plain.is-disabled:focus,.el-button--info.is-plain.is-disabled:hover{color:#bcbec2;background-color:#f4f4f5;border-color:#e9e9eb}.el-button--medium{padding:10px 20px;font-size:14px;border-radius:4px}.el-button--mini,.el-button--small{font-size:12px;border-radius:3px}.el-button--medium.is-round{padding:10px 20px}.el-button--medium.is-circle{padding:10px}.el-button--small,.el-button--small.is-round{padding:9px 15px}.el-button--small.is-circle{padding:9px}.el-button--mini,.el-button--mini.is-round{padding:7px 15px}.el-button--mini.is-circle{padding:7px}.el-button--text{border-color:transparent;color:#409EFF;background:0 0;padding-left:0;padding-right:0}.el-button--text:focus,.el-button--text:hover{color:#66b1ff;border-color:transparent;background-color:transparent}.el-button--text:active{color:#3a8ee6;border-color:transparent;background-color:transparent}.el-button--text.is-disabled,.el-button--text.is-disabled:focus,.el-button--text.is-disabled:hover{border-color:transparent}.el-button-group .el-button--danger:last-child,.el-button-group .el-button--danger:not(:first-child):not(:last-child),.el-button-group .el-button--info:last-child,.el-button-group .el-button--info:not(:first-child):not(:last-child),.el-button-group .el-button--primary:last-child,.el-button-group .el-button--primary:not(:first-child):not(:last-child),.el-button-group .el-button--success:last-child,.el-button-group .el-button--success:not(:first-child):not(:last-child),.el-button-group .el-button--warning:last-child,.el-button-group .el-button--warning:not(:first-child):not(:last-child),.el-button-group>.el-dropdown>.el-button{border-left-color:rgba(255,255,255,.5)}.el-button-group .el-button--danger:first-child,.el-button-group .el-button--danger:not(:first-child):not(:last-child),.el-button-group .el-button--info:first-child,.el-button-group .el-button--info:not(:first-child):not(:last-child),.el-button-group .el-button--primary:first-child,.el-button-group .el-button--primary:not(:first-child):not(:last-child),.el-button-group .el-button--success:first-child,.el-button-group .el-button--success:not(:first-child):not(:last-child),.el-button-group .el-button--warning:first-child,.el-button-group .el-button--warning:not(:first-child):not(:last-child){border-right-color:rgba(255,255,255,.5)}.el-button-group{display:inline-block;vertical-align:middle}.el-button-group::after,.el-button-group::before{display:table;content:""}.el-button-group::after{clear:both}.el-button-group>.el-button{float:left;position:relative}.el-button-group>.el-button+.el-button{margin-left:0}.el-button-group>.el-button.is-disabled{z-index:1}.el-button-group>.el-button:first-child{border-top-right-radius:0;border-bottom-right-radius:0}.el-button-group>.el-button:last-child{border-top-left-radius:0;border-bottom-left-radius:0}.el-button-group>.el-button:first-child:last-child{border-radius:4px}.el-button-group>.el-button:first-child:last-child.is-round{border-radius:20px}.el-button-group>.el-button:first-child:last-child.is-circle{border-radius:50%}.el-button-group>.el-button:not(:first-child):not(:last-child){border-radius:0}.el-button-group>.el-button:not(:last-child){margin-right:-1px}.el-button-group>.el-button.is-active,.el-button-group>.el-button:not(.is-disabled):active,.el-button-group>.el-button:not(.is-disabled):focus,.el-button-group>.el-button:not(.is-disabled):hover{z-index:1}.el-button-group>.el-dropdown>.el-button{border-top-left-radius:0;border-bottom-left-radius:0}
 .el-input__inner,.el-textarea__inner{background-image:none;-webkit-box-sizing:border-box;-webkit-transition:border-color .2s cubic-bezier(.645,.045,.355,1)}.el-textarea{position:relative;display:inline-block;width:100%;vertical-align:bottom;font-size:14px}.el-textarea__inner{display:block;resize:vertical;padding:5px 15px;line-height:1.5;box-sizing:border-box;width:100%;font-size:inherit;color:#606266;background-color:#FFF;border:1px solid #DCDFE6;border-radius:4px;transition:border-color .2s cubic-bezier(.645,.045,.355,1)}.el-textarea__inner::-webkit-input-placeholder{color:#C0C4CC}.el-textarea__inner:-ms-input-placeholder{color:#C0C4CC}.el-textarea__inner::-ms-input-placeholder{color:#C0C4CC}.el-textarea__inner::placeholder{color:#C0C4CC}.el-textarea__inner:hover{border-color:#C0C4CC}.el-textarea__inner:focus{outline:0;border-color:#409EFF}.el-textarea .el-input__count{color:#909399;background:#FFF;position:absolute;font-size:12px;bottom:5px;right:10px}.el-textarea.is-disabled .el-textarea__inner{background-color:#F5F7FA;border-color:#E4E7ED;color:#C0C4CC;cursor:not-allowed}.el-textarea.is-disabled .el-textarea__inner::-webkit-input-placeholder{color:#C0C4CC}.el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder{color:#C0C4CC}.el-textarea.is-disabled .el-textarea__inner::-ms-input-placeholder{color:#C0C4CC}.el-textarea.is-disabled .el-textarea__inner::placeholder{color:#C0C4CC}.el-textarea.is-exceed .el-textarea__inner{border-color:#F56C6C}.el-textarea.is-exceed .el-input__count{color:#F56C6C}.el-input{position:relative;font-size:14px;display:inline-block;width:100%}.el-input::-webkit-scrollbar{z-index:11;width:6px}.el-input::-webkit-scrollbar:horizontal{height:6px}.el-input::-webkit-scrollbar-thumb{border-radius:5px;width:6px;background:#b4bccc}.el-input::-webkit-scrollbar-corner{background:#fff}.el-input::-webkit-scrollbar-track{background:#fff}.el-input::-webkit-scrollbar-track-piece{background:#fff;width:6px}.el-input .el-input__clear{color:#C0C4CC;font-size:14px;cursor:pointer;-webkit-transition:color .2s cubic-bezier(.645,.045,.355,1);transition:color .2s cubic-bezier(.645,.045,.355,1)}.el-input .el-input__clear:hover{color:#909399}.el-input .el-input__count{height:100%;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#909399;font-size:12px}.el-input-group__append .el-button,.el-input-group__append .el-input,.el-input-group__prepend .el-button,.el-input-group__prepend .el-input,.el-input__inner{font-size:inherit}.el-input .el-input__count .el-input__count-inner{background:#FFF;line-height:initial;display:inline-block;padding:0 5px}.el-input__inner{-webkit-appearance:none;background-color:#FFF;border-radius:4px;border:1px solid #DCDFE6;box-sizing:border-box;color:#606266;display:inline-block;height:40px;line-height:40px;outline:0;padding:0 15px;transition:border-color .2s cubic-bezier(.645,.045,.355,1);width:100%}.el-input__prefix,.el-input__suffix{position:absolute;top:0;-webkit-transition:all .3s;text-align:center;height:100%;color:#C0C4CC}.el-input__inner::-ms-reveal{display:none}.el-input__inner::-webkit-input-placeholder{color:#C0C4CC}.el-input__inner:-ms-input-placeholder{color:#C0C4CC}.el-input__inner::-ms-input-placeholder{color:#C0C4CC}.el-input__inner::placeholder{color:#C0C4CC}.el-input__inner:hover{border-color:#C0C4CC}.el-input.is-active .el-input__inner,.el-input__inner:focus{border-color:#409EFF;outline:0}.el-input__suffix{right:5px;transition:all .3s;pointer-events:none}.el-input__suffix-inner{pointer-events:all}.el-input__prefix{left:5px;transition:all .3s}.el-input__icon{height:100%;width:25px;text-align:center;-webkit-transition:all .3s;transition:all .3s;line-height:40px}.el-input__icon:after{content:'';height:100%;width:0;display:inline-block;vertical-align:middle}.el-input__validateIcon{pointer-events:none}.el-input.is-disabled .el-input__inner{background-color:#F5F7FA;border-color:#E4E7ED;color:#C0C4CC;cursor:not-allowed}.el-input.is-disabled .el-input__inner::-webkit-input-placeholder{color:#C0C4CC}.el-input.is-disabled .el-input__inner:-ms-input-placeholder{color:#C0C4CC}.el-input.is-disabled .el-input__inner::-ms-input-placeholder{color:#C0C4CC}.el-input.is-disabled .el-input__inner::placeholder{color:#C0C4CC}.el-input.is-disabled .el-input__icon{cursor:not-allowed}.el-input.is-exceed .el-input__inner{border-color:#F56C6C}.el-input.is-exceed .el-input__suffix .el-input__count{color:#F56C6C}.el-input--suffix .el-input__inner{padding-right:30px}.el-input--prefix .el-input__inner{padding-left:30px}.el-input--medium{font-size:14px}.el-input--medium .el-input__inner{height:36px;line-height:36px}.el-input--medium .el-input__icon{line-height:36px}.el-input--small{font-size:13px}.el-input--small .el-input__inner{height:32px;line-height:32px}.el-input--small .el-input__icon{line-height:32px}.el-input--mini{font-size:12px}.el-input--mini .el-input__inner{height:28px;line-height:28px}.el-input--mini .el-input__icon{line-height:28px}.el-input-group{line-height:normal;display:inline-table;width:100%;border-collapse:separate;border-spacing:0}.el-input-group>.el-input__inner{vertical-align:middle;display:table-cell}.el-input-group__append,.el-input-group__prepend{background-color:#F5F7FA;color:#909399;vertical-align:middle;display:table-cell;position:relative;border:1px solid #DCDFE6;border-radius:4px;padding:0 20px;width:1px;white-space:nowrap}.el-input-group--prepend .el-input__inner,.el-input-group__append{border-top-left-radius:0;border-bottom-left-radius:0}.el-input-group--append .el-input__inner,.el-input-group__prepend{border-top-right-radius:0;border-bottom-right-radius:0}.el-input-group__append:focus,.el-input-group__prepend:focus{outline:0}.el-input-group__append .el-button,.el-input-group__append .el-select,.el-input-group__prepend .el-button,.el-input-group__prepend .el-select{display:inline-block;margin:-10px -20px}.el-input-group__append button.el-button,.el-input-group__append div.el-select .el-input__inner,.el-input-group__append div.el-select:hover .el-input__inner,.el-input-group__prepend button.el-button,.el-input-group__prepend div.el-select .el-input__inner,.el-input-group__prepend div.el-select:hover .el-input__inner{border-color:transparent;background-color:transparent;color:inherit;border-top:0;border-bottom:0}.el-input-group__prepend{border-right:0}.el-input-group__append{border-left:0}.el-input-group--append .el-select .el-input.is-focus .el-input__inner,.el-input-group--prepend .el-select .el-input.is-focus .el-input__inner{border-color:transparent}.el-input__inner::-ms-clear{display:none;width:0;height:0}
@@ -190,19 +190,22 @@
 }
 .tk-avatar-verified {
   position: absolute;
-  right: -0.04rem;
-  bottom: -0.04rem;
+  right: -0.06rem;
+  bottom: -0.06rem;
   z-index: 2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 0.86rem;
-  height: 0.86rem;
-  color: #4d9df3;
-  background: var(--card-bg, #fff);
-  border-radius: 999px;
-  box-shadow: 0 0 0 2px var(--card-bg, #fff), 0 1px 3px rgba(15, 23, 42, 0.18);
+  width: 0.9rem;
+  height: 0.9rem;
+  color: #eab308;
+  background: transparent;
   pointer-events: none;
+  /* 金色六边形自带轮廓：用跟随形状的 drop-shadow 勾一圈底色，
+     比 box-shadow 的方形 ring 更贴合，也不会露出白色方角 */
+  filter:
+    drop-shadow(0 0 0.7px var(--card-bg, #fff))
+    drop-shadow(0 1px 1.6px rgba(15, 23, 42, 0.24));
 }
 .tk-avatar-verified svg {
   flex: none;
@@ -212,18 +215,29 @@
   min-width: 100%;
   max-width: 100%;
 }
+/* 金色六边形的勾是镂空的：直接叠在头像上会露出头像颜色，深色头像里勾几乎看不见。
+   垫一层白圆让镂空处显示白色，徽章才立得住（白圆比六边形略小，只在六个角露一点边） */
+.tk-avatar-verified::before {
+  position: absolute;
+  z-index: -1;
+  inset: 6%;
+  border-radius: 50%;
+  background: #fff;
+  content: '';
+}
 .tk-comment .tk-submit .tk-avatar .tk-avatar-verified,
 .tk-replies .tk-avatar .tk-avatar-verified {
-  right: -0.03rem;
-  bottom: -0.03rem;
-  width: 0.68rem;
-  height: 0.68rem;
+  right: -0.04rem;
+  bottom: -0.04rem;
+  width: 0.74rem;
+  height: 0.74rem;
 }
 html.dark .twikoo .tk-avatar-verified,
 .dark .twikoo .tk-avatar-verified,
 [data-theme="dark"] .twikoo .tk-avatar-verified {
-  background: var(--card-bg, oklch(0.23 0.015 var(--hue, 250)));
-  box-shadow: 0 0 0 2px var(--card-bg, oklch(0.23 0.015 var(--hue, 250))), 0 1px 3px rgba(0, 0, 0, 0.32);
+  filter:
+    drop-shadow(0 0 0.7px var(--card-bg, oklch(0.23 0.015 var(--hue, 250))))
+    drop-shadow(0 1px 1.6px rgba(0, 0, 0, 0.42));
 }
 
 
@@ -4155,6 +4169,12 @@ html body .tk-lightbox .tk-lightbox-image {
 }
 
 
+/* ==========================================================================
+   说说列表骨架
+   尺寸全部对齐真实卡片（.tk-status-item + .tk-status-stream-copy）：
+   内边距 1.48 / 1.7 / 1.1rem、圆角 26px、头部胶囊高 1.62rem、底栏 38px。
+   注意：App.vue 里不要再给骨架加 !important 覆盖，两套规则打架会让尺寸失真。
+   ========================================================================== */
 .tk-status-skeleton {
   display: grid;
   width: 100%;
@@ -4162,158 +4182,44 @@ html body .tk-lightbox .tk-lightbox-image {
 }
 .tk-status-skeleton-card {
   position: relative;
-  min-width: 0;
   overflow: hidden;
   padding: 1.48rem 1.7rem 1.1rem;
-  border: 1px solid color-mix(in srgb, var(--tk-status-list-line, rgba(100, 116, 139, 0.18)) 88%, transparent);
+  border: 1px solid color-mix(in srgb, var(--tk-status-list-accent, #6376d7) 22%, var(--tk-status-list-line, rgba(100, 116, 139, 0.22)));
   border-radius: 26px;
   background:
-    radial-gradient(30rem 18rem at 0% -25%, rgba(99, 118, 215, 0.075), transparent 68%),
-    var(--tk-status-list-surface, rgba(255, 255, 255, 0.96));
-  box-shadow:
-    0 1px 2px rgba(15, 23, 42, 0.025),
-    0 24px 58px -42px rgba(15, 23, 42, 0.32);
+    linear-gradient(135deg, color-mix(in srgb, var(--tk-status-list-accent, #6376d7) 11%, transparent), transparent 43%),
+    radial-gradient(34rem 20rem at 0% -28%, color-mix(in srgb, var(--tk-status-list-accent, #6376d7) 9%, transparent), transparent 68%),
+    var(--tk-status-list-surface, #fff);
+  box-shadow: var(--tk-status-list-shadow, 0 1px 2px rgba(15, 23, 42, 0.035));
 }
-.tk-status-skeleton-watermark {
-  position: absolute;
-  top: 0.15rem;
-  right: 1.3rem;
-  color: color-mix(in srgb, var(--tk-status-list-accent, #6376d7) 13%, transparent);
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 6.7rem;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.75rem;
-  pointer-events: none;
-  user-select: none;
-}
-.tk-status-skeleton-head,
-.tk-status-skeleton-footer,
-.tk-status-skeleton-kicker,
-.tk-status-skeleton-meta,
-.tk-status-skeleton-author,
-.tk-status-skeleton-actions {
-  display: flex;
-  align-items: center;
-}
-.tk-status-skeleton-head,
-.tk-status-skeleton-footer {
+.tk-status-skeleton-head {
   position: relative;
   z-index: 1;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.9rem;
+  /* 真实卡片头部 41px = 胶囊 26px + 14.7px 下留白 */
+  padding-bottom: 0.92rem;
 }
 .tk-status-skeleton-kicker,
-.tk-status-skeleton-meta,
-.tk-status-skeleton-actions {
-  flex-wrap: wrap;
-  gap: 0.62rem;
-}
-.tk-status-skeleton-kicker {
+.tk-status-skeleton-meta {
+  display: flex;
   min-width: 0;
+  align-items: center;
+  gap: 0.5rem;
 }
-.tk-status-skeleton-dot {
-  width: 0.58rem;
-  height: 0.58rem;
+.tk-status-skeleton-meta {
   flex: 0 0 auto;
-  border-radius: 50%;
-  background: color-mix(in srgb, var(--tk-status-list-accent, #6376d7) 32%, #dce2f8);
+  gap: 0.4rem;
 }
-.tk-status-skeleton-label {
-  width: 4.55rem;
-  height: 0.72rem;
-}
-.tk-status-skeleton-id {
-  width: 5.8rem;
-  height: 0.68rem;
-  margin-left: 0.25rem;
-  border-radius: 0.3rem !important;
-}
-.tk-status-skeleton-place {
-  width: 9.5rem;
-  height: 1.72rem;
-  border-radius: 999px !important;
-}
-.tk-status-skeleton-time {
-  width: 5.8rem;
-  height: 0.7rem;
-}
-.tk-status-skeleton-edit {
-  width: 2.75rem;
-  height: 1.62rem;
-  border-radius: 0.5rem !important;
-}
-.tk-status-skeleton-body {
-  display: grid;
-  gap: 0.72rem;
-  margin: 1.35rem 0 1.05rem;
-  padding: 0.08rem 0 0.08rem 1.35rem;
-  border-left: 3px solid color-mix(in srgb, var(--tk-status-list-accent, #6376d7) 58%, transparent);
-}
-.tk-status-skeleton-line {
-  height: 0.78rem;
-}
-.tk-status-skeleton-line-long {
-  width: min(100%, 64rem);
-}
-.tk-status-skeleton-line-medium {
-  width: min(88%, 54rem);
-}
-.tk-status-skeleton-line-short {
-  width: min(58%, 35rem);
-}
-.tk-status-skeleton-footer {
-  margin-top: 0.2rem;
-  padding-top: 1rem;
-  border-top: 1px solid color-mix(in srgb, var(--tk-status-list-line, rgba(100, 116, 139, 0.18)) 82%, transparent);
-}
-.tk-status-skeleton-author {
-  min-width: 0;
-  gap: 0.78rem;
-}
-.tk-status-skeleton-avatar {
-  width: 2.85rem;
-  height: 2.85rem;
-  flex: 0 0 auto;
-  border-radius: 50% !important;
-}
-.tk-status-skeleton-author-copy {
-  display: grid;
-  gap: 0.46rem;
-}
-.tk-status-skeleton-name {
-  width: 6.3rem;
-  height: 0.76rem;
-}
-.tk-status-skeleton-mood {
-  width: 9.8rem;
-  height: 0.62rem;
-}
-.tk-status-skeleton-actions {
-  justify-content: flex-end;
-}
-.tk-status-skeleton-action {
-  width: 4.9rem;
-  height: 2.35rem;
-  border-radius: 999px !important;
-}
-.tk-status-skeleton-action-short {
-  width: 2.75rem;
-}
-.tk-status-skeleton-dot,
-.tk-status-skeleton-label,
-.tk-status-skeleton-id,
-.tk-status-skeleton-place,
-.tk-status-skeleton-time,
-.tk-status-skeleton-edit,
-.tk-status-skeleton-line,
-.tk-status-skeleton-avatar,
-.tk-status-skeleton-name,
-.tk-status-skeleton-mood,
-.tk-status-skeleton-action {
+
+/* 所有占位条统一走这一条：display 必须显式给，span 默认 inline 时宽高不生效 */
+.tk-status-skeleton-bar {
   display: block;
+  flex: 0 0 auto;
   overflow: hidden;
-  border-radius: 999px;
+  border-radius: 0.4rem;
   background: linear-gradient(100deg, rgba(226, 232, 240, 0.62) 20%, rgba(248, 250, 252, 0.98) 42%, rgba(226, 232, 240, 0.62) 64%);
   background-size: 220% 100%;
   animation: tkStatusSkeletonShimmer 1.55s ease-in-out infinite;
@@ -4324,51 +4230,128 @@ from { background-position: 100% 0;
 to { background-position: -100% 0;
 }
 }
-html.dark .twikoo .tk-status-skeleton-card,
-.dark .twikoo .tk-status-skeleton-card,
-[data-theme="dark"] .twikoo .tk-status-skeleton-card {
-  border-color: color-mix(in srgb, var(--tk-status-list-line, rgba(148, 163, 184, 0.17)) 90%, transparent);
-  background:
-    radial-gradient(30rem 18rem at 0% -25%, rgba(147, 168, 255, 0.06), transparent 68%),
-    color-mix(in oklch, var(--card-bg, oklch(0.23 0.015 var(--hue, 250))) 88%, white 4%);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 24px 58px -40px rgba(0, 0, 0, 0.7);
+
+/* —— 头部胶囊：与真实身份 / 地址 / 心情胶囊同高 —— */
+.tk-status-skeleton-chip {
+  border-radius: 999px;
 }
-html.dark .twikoo .tk-status-skeleton-dot,
-html.dark .twikoo .tk-status-skeleton-label,
-html.dark .twikoo .tk-status-skeleton-id,
-html.dark .twikoo .tk-status-skeleton-place,
-html.dark .twikoo .tk-status-skeleton-time,
-html.dark .twikoo .tk-status-skeleton-edit,
-html.dark .twikoo .tk-status-skeleton-line,
-html.dark .twikoo .tk-status-skeleton-avatar,
-html.dark .twikoo .tk-status-skeleton-name,
-html.dark .twikoo .tk-status-skeleton-mood,
-html.dark .twikoo .tk-status-skeleton-action,
-.dark .twikoo .tk-status-skeleton-dot,
-.dark .twikoo .tk-status-skeleton-label,
-.dark .twikoo .tk-status-skeleton-id,
-.dark .twikoo .tk-status-skeleton-place,
-.dark .twikoo .tk-status-skeleton-time,
-.dark .twikoo .tk-status-skeleton-edit,
-.dark .twikoo .tk-status-skeleton-line,
-.dark .twikoo .tk-status-skeleton-avatar,
-.dark .twikoo .tk-status-skeleton-name,
-.dark .twikoo .tk-status-skeleton-mood,
-.dark .twikoo .tk-status-skeleton-action,
-[data-theme="dark"] .twikoo .tk-status-skeleton-dot,
-[data-theme="dark"] .twikoo .tk-status-skeleton-label,
-[data-theme="dark"] .twikoo .tk-status-skeleton-id,
-[data-theme="dark"] .twikoo .tk-status-skeleton-place,
-[data-theme="dark"] .twikoo .tk-status-skeleton-time,
-[data-theme="dark"] .twikoo .tk-status-skeleton-edit,
-[data-theme="dark"] .twikoo .tk-status-skeleton-line,
-[data-theme="dark"] .twikoo .tk-status-skeleton-avatar,
-[data-theme="dark"] .twikoo .tk-status-skeleton-name,
-[data-theme="dark"] .twikoo .tk-status-skeleton-mood,
-[data-theme="dark"] .twikoo .tk-status-skeleton-action {
+.tk-status-skeleton-identity {
+  display: inline-flex;
+  height: 1.62rem;
+  align-items: center;
+  gap: 0.36rem;
+  padding: 0 0.58rem 0 0.16rem;
+  border: 1px solid color-mix(in srgb, var(--tk-status-list-line, rgba(100, 116, 139, 0.22)) 88%, transparent);
+  border-radius: 999px;
+}
+.tk-status-skeleton-avatar {
+  width: 1.22rem;
+  height: 1.22rem;
+  border-radius: 50%;
+}
+.tk-status-skeleton-name {
+  width: 3.1rem;
+  height: 0.6rem;
+}
+.tk-status-skeleton-level {
+  width: 1.5rem;
+  height: 0.56rem;
+  border-radius: 999px;
+}
+.tk-status-skeleton-place {
+  width: 9.4rem;
+  height: 1.5rem;
+}
+.tk-status-skeleton-mood {
+  width: 5.4rem;
+  height: 1.5rem;
+}
+.tk-status-skeleton-time {
+  width: 3.4rem;
+  height: 0.7rem;
+}
+.tk-status-skeleton-flag {
+  width: 2.4rem;
+  height: 1.28rem;
+}
+
+/* —— 正文：真实卡片没有左侧竖线，这里也不画 —— */
+.tk-status-skeleton-body {
+  display: grid;
+  gap: 0.7rem;
+  margin-top: 0.6rem;
+}
+.tk-status-skeleton-line {
+  height: 0.8rem;
+}
+.tk-status-skeleton-line.is-long {
+  width: 100%;
+}
+.tk-status-skeleton-line.is-medium {
+  width: 72%;
+}
+
+/* —— 底栏：左侧统计文字、右侧图标按钮，与真实 footer 同高 —— */
+.tk-status-skeleton-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-top: 0.58rem;
+  padding-top: 0.48rem;
+}
+.tk-status-skeleton-counts {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.tk-status-skeleton-count {
+  width: 3.1rem;
+  height: 0.7rem;
+}
+.tk-status-skeleton-count.is-short {
+  width: 2.6rem;
+}
+.tk-status-skeleton-count-dot {
+  width: 0.18rem;
+  height: 0.18rem;
+  border-radius: 50%;
+}
+.tk-status-skeleton-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.tk-status-skeleton-action {
+  width: 1.5rem;
+  height: 1.3rem;
+  border-radius: 0.5rem;
+}
+
+/* —— 深色 —— */
+html.dark .tk-status-skeleton-card,
+.dark .tk-status-skeleton-card,
+[data-theme="dark"] .tk-status-skeleton-card {
+  border-color: color-mix(in srgb, var(--tk-status-list-accent, #9aa8f4) 20%, var(--tk-status-list-line, rgba(255, 255, 255, 0.14)));
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--tk-status-list-accent, #9aa8f4) 12%, transparent), transparent 43%),
+    radial-gradient(34rem 20rem at 0% -28%, color-mix(in srgb, var(--tk-status-list-accent, #9aa8f4) 10%, transparent), transparent 68%),
+    var(--tk-status-list-surface, #1b2330);
+  box-shadow: var(--tk-status-list-shadow, 0 1px 2px rgba(0, 0, 0, 0.18));
+}
+html.dark .tk-status-skeleton-bar,
+.dark .tk-status-skeleton-bar,
+[data-theme="dark"] .tk-status-skeleton-bar {
   background: linear-gradient(100deg, rgba(71, 85, 105, 0.34) 20%, rgba(100, 116, 139, 0.52) 42%, rgba(71, 85, 105, 0.34) 64%);
   background-size: 220% 100%;
 }
+html.dark .tk-status-skeleton-identity,
+.dark .tk-status-skeleton-identity,
+[data-theme="dark"] .tk-status-skeleton-identity {
+  border-color: color-mix(in srgb, var(--tk-status-list-line, rgba(255, 255, 255, 0.14)) 90%, transparent);
+}
+
+/* —— 窄屏 —— */
 @media (max-width: 760px) {
 .tk-status-skeleton {
     gap: 0.82rem;
@@ -4382,67 +4365,20 @@ html.dark .twikoo .tk-status-skeleton-action,
     gap: 0.55rem;
 }
 .tk-status-skeleton-kicker {
-    gap: 0.46rem;
-}
-.tk-status-skeleton-label {
-    width: 3.9rem;
-}
-.tk-status-skeleton-id {
-    width: 4.7rem;
+    gap: 0.42rem;
 }
 .tk-status-skeleton-place {
-    width: 7.3rem;
-    height: 1.55rem;
-}
-.tk-status-skeleton-meta {
-    justify-content: flex-end;
-    gap: 0.4rem;
-}
-.tk-status-skeleton-time {
-    width: 4.7rem;
-}
-.tk-status-skeleton-watermark {
-    right: 0.82rem;
-    font-size: 5.3rem;
-}
-.tk-status-skeleton-body {
-    margin: 1.05rem 0 0.9rem;
-    padding-left: 0.92rem;
-}
-.tk-status-skeleton-line-medium {
-    width: 94%;
-}
-.tk-status-skeleton-footer {
-    align-items: flex-end;
-    gap: 0.65rem;
-}
-.tk-status-skeleton-avatar {
-    width: 2.48rem;
-    height: 2.48rem;
-}
-.tk-status-skeleton-mood {
     width: 7rem;
 }
-.tk-status-skeleton-action {
-    width: 3.75rem;
-    height: 2.15rem;
+.tk-status-skeleton-mood {
+    width: 4.4rem;
 }
-.tk-status-skeleton-action-short {
-    width: 2.35rem;
+.tk-status-skeleton-line.is-medium {
+    width: 84%;
 }
 }
 @media (prefers-reduced-motion: reduce) {
-.tk-status-skeleton-dot,
-  .tk-status-skeleton-label,
-  .tk-status-skeleton-id,
-  .tk-status-skeleton-place,
-  .tk-status-skeleton-time,
-  .tk-status-skeleton-edit,
-  .tk-status-skeleton-line,
-  .tk-status-skeleton-avatar,
-  .tk-status-skeleton-name,
-  .tk-status-skeleton-mood,
-  .tk-status-skeleton-action {
+.tk-status-skeleton-bar {
     animation: none;
 }
 }
@@ -5400,6 +5336,13 @@ html.dark .tk-status-dialog-layer.tk-status-weather-neutral,
   cursor: pointer;
   transition: color 0.16s ease, background-color 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
 }
+/* 目标说说尚未取回时，关闭按钮浮在面板右上角（此时没有内嵌的头部按钮） */
+.tk-status-dialog-close-floating {
+  position: absolute;
+  z-index: 3;
+  top: 0.85rem;
+  right: 0.85rem;
+}
 .tk-status-dialog-close:hover,
 .tk-status-dialog-close:focus-visible {
   border-color: color-mix(in srgb, var(--tk-dialog-accent) 34%, transparent);
@@ -5413,10 +5356,21 @@ html.dark .tk-status-dialog-layer.tk-status-weather-neutral,
   flex: 1 1 auto;
   overflow-x: hidden;
   overflow-y: auto;
-  padding: 0 1.62rem 1.62rem;
+  /* 底部留白交给内容层统一控制，这里归零，避免与 copy / scroll 的 padding 叠加 */
+  padding: 0 1.62rem 0;
   overscroll-behavior: contain;
   scrollbar-gutter: stable;
   touch-action: pan-y;
+}
+.tk-status-dialog-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 11rem;
+  padding: 2rem 1.4rem;
+  color: var(--tk-dialog-muted, #697586);
+  font-size: 0.84rem;
+  letter-spacing: 0.02em;
 }
 .tk-status-dialog-body::-webkit-scrollbar {
   width: 8px;
@@ -5589,7 +5543,8 @@ html.dark .tk-status-dialog-body .tk-status-in-dialog .tk-status-card-location,
     height: 2.1rem;
 }
 .tk-status-dialog-body {
-    padding: 0 1.05rem calc(1.2rem + env(safe-area-inset-bottom, 0px));
+    /* 只保留刘海安全区，底部留白同样交给内容层 */
+    padding: 0 1.05rem env(safe-area-inset-bottom, 0px);
     scrollbar-gutter: auto;
 }
 .tk-status-dialog-body .tk-status-in-dialog > .tk-status-root-wrap > .tk-status-card > .tk-status-card-head {
@@ -5746,7 +5701,7 @@ html.dark .twikoo div.code-toolbar>.toolbar>.toolbar-item>button:hover,
   font-size: 1.12rem;
 }
 .tk-status-dialog-body {
-  padding: 0 1.35rem 1.35rem;
+  padding: 0 1.35rem 0;
 }
 .tk-status-dialog-content {
   min-width: 0;
@@ -5847,24 +5802,15 @@ html.dark .twikoo div.code-toolbar>.toolbar>.toolbar-item>button:hover,
   margin-bottom: 0;
 }
 .tk-status-dialog-body .tk-status-in-dialog .tk-status-image-grid {
-  margin: 0.95rem 0 0;
-  gap: 0.45rem;
-}
-.tk-status-dialog-body .tk-status-in-dialog .tk-status-image-grid-1 {
-  max-height: 22rem;
+  margin: 0.82rem 0 0.08rem;
+  gap: 0.36rem;
 }
 .tk-status-dialog-body .tk-status-in-dialog .tk-status-image-grid > a,
 .tk-status-dialog-body .tk-status-in-dialog .tk-status-image-grid > img,
 .tk-status-dialog-body .tk-status-in-dialog .tk-status-image-grid > .image-grid-item {
-  max-height: 22rem;
   overflow: hidden;
-  border-radius: 0.78rem !important;
+  border-radius: 6px;
   background: color-mix(in srgb, var(--tk-dialog-muted) 8%, transparent);
-}
-.tk-status-dialog-body .tk-status-in-dialog .tk-status-image-grid img {
-  width: 100%;
-  max-height: 22rem;
-  object-fit: cover;
 }
 .tk-status-dialog-body .tk-status-in-dialog .tk-status-card-footer {
   display: grid;
@@ -5886,7 +5832,8 @@ html.dark .twikoo div.code-toolbar>.toolbar>.toolbar-item>button:hover,
 .tk-status-dialog-body .tk-status-in-dialog .tk-status-replies {
   margin-top: 0.9rem;
   padding-top: 0.9rem;
-  border-top: 1px solid var(--tk-dialog-line);
+  /* 回应区不再画分隔线：正文与评论之间靠留白区分 */
+  border-top: 0;
 }
 .tk-status-dialog-body .tk-status-in-dialog .tk-status-replies-title {
   color: var(--tk-dialog-muted);
@@ -6917,20 +6864,22 @@ html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid {
   display: grid !important;
-  width: 100% !important;
-  height: 10.5rem !important;
-  min-height: 10.5rem !important;
+  width: min(100%, 42rem) !important;
+  height: auto !important;
+  min-height: 0 !important;
   max-width: none !important;
-  max-height: 10.5rem !important;
-  gap: 3px !important;
-  margin: 0.8rem 0 0 !important;
+  max-height: none !important;
+  gap: 0.36rem !important;
+  margin: 0.82rem 0 0.08rem !important;
   padding: 0 !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   box-sizing: border-box !important;
   align-items: stretch !important;
-  align-content: stretch !important;
+  align-content: start !important;
   aspect-ratio: auto !important;
-  grid-auto-rows: minmax(0, 1fr) !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  grid-template-rows: none !important;
+  grid-auto-rows: auto !important;
   border-radius: 0 !important;
   background: transparent !important;
 }
@@ -6942,7 +6891,7 @@ html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid > img {
   display: block !important;
   width: 100% !important;
-  height: 100% !important;
+  height: auto !important;
   min-width: 0 !important;
   min-height: 0 !important;
   max-width: none !important;
@@ -6951,10 +6900,18 @@ html body .tk-status-dialog-layer .tk-status-dialog-body
   padding: 0 !important;
   overflow: hidden !important;
   box-sizing: border-box !important;
-  aspect-ratio: auto !important;
+  aspect-ratio: 1 !important;
   line-height: 0 !important;
-  border-radius: 0 !important;
+  border-radius: 6px !important;
   background: color-mix(in srgb, var(--tk-dialog-line) 28%, transparent) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-image-grid-1 > .image-grid-item,
+html body .tk-status-dialog-layer .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-image-grid-1 > a,
+html body .tk-status-dialog-layer .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-image-grid-1 > img {
+  aspect-ratio: 4 / 3 !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid img,
@@ -6976,59 +6933,48 @@ html body .tk-status-dialog-layer .tk-status-dialog-body
   padding: 0 !important;
   object-fit: cover !important;
   object-position: center !important;
-  border-radius: 0 !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-1 {
+  width: min(100%, 17rem) !important;
   grid-template-columns: minmax(0, 1fr) !important;
-  grid-template-rows: minmax(0, 1fr) !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-2 {
+  width: min(100%, 19rem) !important;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  grid-template-rows: minmax(0, 1fr) !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-3 {
+  width: min(100%, 30rem) !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
-}
-html body .tk-status-dialog-layer .tk-status-dialog-body
-.tk-status-in-dialog .tk-status-image-grid-3 > :first-child {
-  grid-column: span 2 !important;
-  grid-row: span 2 !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-4 {
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
+  width: min(100%, 42rem) !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
-.tk-status-in-dialog .tk-status-image-grid-5,
+.tk-status-in-dialog .tk-status-image-grid-5 {
+  width: min(100%, 42rem) !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-6 {
+  width: min(100%, 42rem) !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
-}
-html body .tk-status-dialog-layer .tk-status-dialog-body
-.tk-status-in-dialog .tk-status-image-grid-5 > :first-child {
-  grid-row: span 2 !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-7,
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-8 {
+  width: min(100%, 42rem) !important;
   grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
-}
-html body .tk-status-dialog-layer .tk-status-dialog-body
-.tk-status-in-dialog .tk-status-image-grid-7 > :first-child {
-  grid-column: span 2 !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-9 {
+  width: min(100%, 42rem) !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(3, minmax(0, 1fr)) !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
 .tk-status-in-dialog .tk-status-image-grid-10plus {
@@ -7053,10 +6999,8 @@ html body .tk-status-dialog-layer .tk-status-dialog-body
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
   .tk-status-in-dialog .tk-status-image-grid {
-    height: 9rem !important;
-    min-height: 9rem !important;
-    max-height: 9rem !important;
-    gap: 3px !important;
+    width: 100% !important;
+    gap: 0.36rem !important;
 }
 html body .tk-status-dialog-layer .tk-status-dialog-body
   .tk-status-in-dialog .tk-status-image-grid-10plus {
@@ -7116,6 +7060,1921 @@ html body .tk-status-dialog-layer .tk-status-dialog-body
     width: 100%;
     justify-self: center;
 }
+}
+
+/* ==========================================================================
+   详情弹窗最终样式：与说说列表卡片共用天气色、圆角和层次。
+   仅作用于详情根卡，避免影响评论回复与列表卡片。
+   ========================================================================== */
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog
+> .tk-status-root-wrap > .tk-status-card {
+  display: block !important;
+  width: 100% !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border-radius: 26px !important;
+
+  --tk-status-list-accent: var(--tk-dialog-accent, #6376d7);
+  --tk-status-list-surface: var(--tk-dialog-surface, #fff);
+  --tk-status-list-line: var(--tk-dialog-line, rgba(100, 116, 139, 0.22));
+  --tk-status-list-text: var(--tk-dialog-text, #334155);
+  --tk-status-list-muted: var(--tk-dialog-muted, rgba(51, 65, 85, 0.52));
+
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 20%,
+    var(--tk-status-list-line)
+  ) !important;
+
+  background:
+    radial-gradient(
+      22rem 15rem at -2% -12%,
+      color-mix(in srgb, var(--tk-status-list-accent) 26%, transparent),
+      transparent 68%
+    ),
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--tk-status-list-accent) 10%, transparent) 0%,
+      transparent 48%
+    ),
+    var(--tk-status-list-surface) !important;
+
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.025),
+    0 24px 60px -42px rgba(15, 23, 42, 0.32) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body {
+  padding: 0.9rem 1rem 1rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-dialog-content {
+  padding: 0 !important;
+  overflow: visible !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog
+> .tk-status-root-wrap > .tk-status-card
+> .tk-status-stream-detail-layout,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog
+> .tk-status-root-wrap > .tk-status-card
+> .tk-status-stream-detail-layout > .tk-status-stream-detail-copy {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog
+> .tk-status-root-wrap > .tk-status-card
+> .tk-status-stream-detail-layout > .tk-status-stream-detail-copy {
+  box-sizing: border-box !important;
+  /* 顶部不再留 1.48rem：头部自己带 padding-top，两段叠起来会空出 40px */
+  /* 底部 1.05rem = 顶部（header 0.9rem + 本层 0.15rem），上下留白对称 */
+  padding: 0.15rem 1.7rem 1.05rem !important;
+  background: transparent !important;
+}
+
+/* 顶部信息：左侧是场景信息，右侧是时间与状态，尺寸统一。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  gap: 0.72rem 1.2rem !important;
+  margin: 0 !important;
+  padding: 0 0 0.92rem !important;
+  border: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-kicker,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 0.4rem 0.46rem !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
+  line-height: 1 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta {
+  justify-content: flex-end !important;
+  margin-left: auto !important;
+  color: var(--tk-status-list-muted) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-context,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-chip,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-copy-id {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.3rem !important;
+  box-sizing: border-box !important;
+  min-height: 1.52rem !important;
+  margin: 0 !important;
+  padding: 0.2rem 0.54rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 15%,
+    transparent
+  ) !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 7%,
+    var(--tk-status-list-surface)
+  ) !important;
+  color: var(--tk-status-list-accent) !important;
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-context-icon,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-mood-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 0.9rem !important;
+  height: 0.9rem !important;
+  flex: 0 0 0.9rem !important;
+  background: transparent !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-context-icon svg,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-mood-icon svg {
+  display: block !important;
+  width: 0.82rem !important;
+  height: 0.82rem !important;
+  background: transparent !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > time {
+  display: inline-flex !important;
+  align-items: center !important;
+  min-height: 1.52rem !important;
+  padding: 0 0.08rem !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
+  font-variant-numeric: tabular-nums !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > span,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > button {
+  display: inline-flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  min-height: 1.52rem !important;
+  margin: 0 !important;
+  padding: 0.2rem 0.5rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 11%,
+    transparent
+  ) !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-surface) 88%,
+    var(--tk-status-list-accent)
+  ) !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-visibility.is-public {
+  color: color-mix(in srgb, var(--tk-status-list-accent) 78%, #15803d) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-visibility.is-private,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-visibility.is-protected {
+  color: color-mix(in srgb, var(--tk-status-list-accent) 64%, #b45309) !important;
+}
+
+/* 正文：默认字体、非粗体，桌面和手机保持同一阅读字号。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content > span {
+  color: color-mix(
+    in srgb,
+    var(--tk-status-list-text) 92%,
+    var(--tk-status-list-muted)
+  ) !important;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Microsoft YaHei", sans-serif !important;
+  font-size: 15.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.86 !important;
+  letter-spacing: 0.005em !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content > span {
+  display: block !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content p {
+  margin: 0 0 0.78rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* 所有图片组使用同一个上下间距，避免不同说说之间忽宽忽窄。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-status-image-grid {
+  display: grid !important;
+  margin-top: 0.9rem !important;
+  margin-bottom: 0.9rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-status-image-grid:first-child {
+  margin-top: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-status-image-grid:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* 引用：正文保留宋体，落款使用默认字体、横线和正文双引号。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content blockquote {
+  position: relative !important;
+  box-sizing: border-box !important;
+  margin: 1.05rem 0 !important;
+  padding: 0.84rem 0.96rem 0.78rem 1rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 15%,
+    transparent
+  ) !important;
+  border-left: 3px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 62%,
+    transparent
+  ) !important;
+  border-radius: 0.78rem !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 6%,
+    var(--tk-status-list-surface)
+  ) !important;
+  color: color-mix(
+    in srgb,
+    var(--tk-status-list-text) 94%,
+    var(--tk-status-list-accent)
+  ) !important;
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", STSong,
+    Georgia, serif !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 1.72 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content blockquote > p {
+  margin: 0 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.72 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content blockquote > p:first-child::before {
+  content: "“";
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content
+blockquote:not(:has(> p:last-child:not(:first-child))) > p:last-child::after {
+  content: "”";
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content
+blockquote:has(> p:last-child:not(:first-child)) > p:nth-last-child(2)::after {
+  content: "”";
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content
+blockquote > p:last-child:not(:first-child) {
+  margin-top: 0.56rem !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Microsoft YaHei", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  text-align: right !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body .tk-content
+blockquote > p:last-child:not(:first-child)::before {
+  content: "— ";
+}
+
+/* 底部：作者、功能状态、操作位于同一行并与头像垂直居中。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-footer {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: 0.5rem 0.72rem !important;
+  margin-top: 0.58rem !important;
+  padding: 0.48rem 0 0 !important;
+  border-top: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-signature {
+  display: flex !important;
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  align-items: center !important;
+  justify-self: start !important;
+  gap: 0.46rem !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-signature .tk-avatar {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 2.42rem !important;
+  height: 2.42rem !important;
+  min-width: 2.42rem !important;
+  min-height: 2.42rem !important;
+  flex: 0 0 2.42rem !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  border: 1px solid color-mix(in srgb, var(--tk-status-list-accent) 16%, transparent) !important;
+  border-radius: 50% !important;
+  background: color-mix(in srgb, var(--tk-status-list-accent) 7%, transparent) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-signature .tk-avatar > .tk-avatar-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-author,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-author .tk-status-card-name {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 0.34rem !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-author .tk-status-card-name strong {
+  color: var(--tk-status-list-text) !important;
+  font-family: inherit !important;
+  font-size: 0.8rem !important;
+  font-weight: 650 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-footer > .tk-status-stream-feature-state {
+  display: inline-flex !important;
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  justify-self: center !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: inherit !important;
+  font-size: 0.68rem !important;
+  font-weight: 500 !important;
+  line-height: 1.3 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-footer > .tk-status-stream-feature-state *,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-feature-state .tk-status-feature-state {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions {
+  display: flex !important;
+  grid-column: 3 !important;
+  grid-row: 1 !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  justify-self: end !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.34rem !important;
+  margin: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  min-width: 1.9rem !important;
+  min-height: 1.82rem !important;
+  margin: 0 !important;
+  padding: 0.24rem 0.58rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 16%,
+    transparent
+  ) !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 7%,
+    var(--tk-status-list-surface)
+  ) !important;
+  color: var(--tk-status-list-accent) !important;
+  line-height: 1 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link:hover,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link.tk-liked,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link.tk-disliked {
+  border-color: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 32%,
+    transparent
+  ) !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 13%,
+    var(--tk-status-list-surface)
+  ) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 0.86rem !important;
+  height: 0.86rem !important;
+  flex: 0 0 0.86rem !important;
+  margin: 0 !important;
+  color: currentColor !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-icon svg,
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions svg {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  color: currentColor !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-count {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 0 0 0.2rem !important;
+  color: currentColor !important;
+  font-size: 0.68rem !important;
+  line-height: 1 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-feature-state:empty {
+  display: none !important;
+}
+
+/* 手机端：保留同一套视觉，只把底部信息改成清晰的三行。 */
+@media (max-width: 760px) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body {
+    padding: 0.62rem 0.62rem 0.72rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-head {
+    gap: 0.56rem 0.72rem !important;
+    padding-bottom: 0.78rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-head-meta {
+    width: 100% !important;
+    justify-content: flex-start !important;
+    margin-left: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-copy {
+    /* 与宽屏一致：上下留白对称 */
+    padding: 0.15rem 1.04rem 1.05rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-body,
+  html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-body .tk-content,
+  html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-body .tk-content > span {
+    font-size: 15.5px !important;
+    line-height: 1.78 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-footer {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 0.58rem !important;
+    margin-top: 0.66rem !important;
+    padding-top: 0.58rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-signature {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    justify-self: start !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-footer > .tk-status-stream-feature-state {
+    grid-column: 1 !important;
+    grid-row: 3 !important;
+    width: 100% !important;
+    justify-self: center !important;
+    white-space: normal !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-actions {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+    width: 100% !important;
+    justify-content: flex-end !important;
+    justify-self: stretch !important;
+}
+}
+@media (max-width: 760px) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  > .tk-status-root-wrap > .tk-status-card {
+    border-radius: 22px !important;
+}
+}
+
+/* ==========================================================================
+   Status detail modal v5 (frameless)
+   1) 去掉弹窗外层边框：panel 只作布局壳，内容卡自己成面，不再套两层框。
+   2) 关闭按钮并入顶部信息行，紧挨「编辑」。
+   3) 统一说说本体与回复行的头像、认证角标、徽标与操作按钮尺寸。
+   ========================================================================== */
+html body .tk-status-dialog-layer .tk-status-dialog-panel {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel::before {
+  display: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body {
+  padding: 0 !important;
+  scrollbar-gutter: stable both-edges;
+}
+
+/* 内容卡：唯一的一层面 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+.tk-status-dialog-body .tk-status-dialog-content {
+  --tk-status-list-accent: var(--tk-dialog-accent, #6376d7);
+  --tk-status-list-surface: var(--tk-dialog-surface, #fff);
+  --tk-status-list-line: var(--tk-dialog-line, rgba(100, 116, 139, 0.22));
+  --tk-status-list-text: var(--tk-dialog-text, #334155);
+  --tk-status-list-muted: var(--tk-dialog-muted, rgba(51, 65, 85, 0.52));
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden !important;
+  padding: 0 !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 20%,
+    var(--tk-status-list-line)
+  ) !important;
+  border-radius: 1.6rem !important;
+  background:
+    radial-gradient(
+      22rem 15rem at -2% -12%,
+      color-mix(in srgb, var(--tk-status-list-accent) 26%, transparent),
+      transparent 68%
+    ),
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--tk-status-list-accent) 10%, transparent) 0%,
+      transparent 48%
+    ),
+    var(--tk-status-list-surface) !important;
+  box-shadow: none !important;
+}
+
+/* 内层说说卡退成透明容器，避免与内容卡叠成双框 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog
+> .tk-status-root-wrap > .tk-status-card {
+  overflow: visible !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 关闭按钮：位于信息行末尾，紧挨「编辑」 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-dialog-close {
+  display: inline-flex !important;
+  width: 1.52rem !important;
+  height: 1.52rem !important;
+  min-height: 1.52rem !important;
+  flex: 0 0 1.52rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 0 0 0.1rem !important;
+  padding: 0 0 0.06rem !important;
+  border: 1px solid var(--tk-status-list-line) !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-surface) 86%,
+    var(--tk-status-list-accent)
+  ) !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: inherit !important;
+  font-size: 0.98rem !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  cursor: pointer;
+  transition:
+    color 0.16s ease,
+    background-color 0.16s ease,
+    border-color 0.16s ease;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-dialog-close:hover,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-dialog-close:focus-visible {
+  outline: none !important;
+  border-color: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 42%,
+    transparent
+  ) !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-surface) 76%,
+    var(--tk-status-list-accent)
+  ) !important;
+  color: var(--tk-status-list-accent) !important;
+  transform: none !important;
+}
+
+/* 说说本体头像：角标不再被圆形裁切 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-signature .tk-avatar {
+  overflow: visible !important;
+  border-radius: 50% !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-signature .tk-avatar .tk-avatar-verified {
+  right: -0.05rem !important;
+  bottom: -0.05rem !important;
+  z-index: 3 !important;
+  width: 0.9rem !important;
+  height: 0.9rem !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: #eab308 !important;
+  box-shadow: none !important;
+  filter:
+    drop-shadow(0 0 0.7px var(--tk-status-list-surface))
+    drop-shadow(0 1px 2px rgba(15, 23, 42, 0.2)) !important;
+}
+
+/* 回复行头像：与说说本体统一成圆形，角标按比例缩小 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-replies > .tk-comment {
+  padding-left: 0 !important;
+  padding-top: 0.7rem !important;
+  margin-top: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies
+.tk-replies > .tk-comment + .tk-comment {
+  margin-top: 0.4rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies
+.tk-replies > .tk-comment > .tk-avatar {
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  min-width: 1.75rem !important;
+  flex: 0 0 1.75rem !important;
+  margin: 0 0.6rem 0 0 !important;
+  overflow: visible !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies
+.tk-replies > .tk-comment > .tk-avatar .tk-avatar-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies
+.tk-replies > .tk-comment > .tk-avatar .tk-avatar-verified {
+  right: -0.04rem !important;
+  bottom: -0.04rem !important;
+  z-index: 3 !important;
+  width: 0.7rem !important;
+  height: 0.7rem !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: #eab308 !important;
+  box-shadow: none !important;
+  filter:
+    drop-shadow(0 0 0.6px var(--tk-status-list-surface))
+    drop-shadow(0 1px 2px rgba(15, 23, 42, 0.18)) !important;
+}
+
+/* 回复行昵称与「回复 @某人」：正文级字号，弱化色彩 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-nick {
+  font-family: inherit !important;
+  font-size: 0.84rem !important;
+  font-weight: 650 !important;
+  line-height: 1.3 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-time {
+  white-space: nowrap !important;
+}
+/* 弹窗被挂到 body 上，拿不到 .twikoo/.tk-status-mode 的暗色规则，颜色必须显式给。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-comment {
+  color: var(--tk-status-list-text) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-nick,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-nick strong,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-content {
+  color: var(--tk-status-list-text) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-time,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-time time {
+  color: var(--tk-status-list-muted) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-status-reply-to {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.08rem !important;
+  margin: 0 0 0 0.34rem !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: inherit !important;
+  font-size: 0.76rem !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies
+.tk-status-reply-to .tk-ruser {
+  color: var(--tk-status-list-accent) !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-level-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.16rem !important;
+  min-height: 1.16rem !important;
+  padding: 0.08rem 0.4rem !important;
+  border-radius: 999px !important;
+  font-family: inherit !important;
+  font-size: 0.62rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+}
+
+/* 操作按钮：说说本体与回复行共用同一套胶囊样式与尺寸 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-reply-actions).tk-action {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.42rem !important;
+  margin: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  min-width: 1.9rem !important;
+  min-height: 1.82rem !important;
+  margin: 0 !important;
+  padding: 0.24rem 0.58rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 16%,
+    transparent
+  ) !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 7%,
+    var(--tk-status-list-surface)
+  ) !important;
+  color: var(--tk-status-list-accent) !important;
+  font-family: inherit !important;
+  line-height: 1 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-link:hover,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-link.tk-liked,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-link.tk-disliked {
+  border-color: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 32%,
+    transparent
+  ) !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 13%,
+    var(--tk-status-list-surface)
+  ) !important;
+  color: var(--tk-status-list-accent) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 0.86rem !important;
+  height: 0.86rem !important;
+  flex: 0 0 0.86rem !important;
+  margin: 0 !important;
+  color: currentColor !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-icon svg,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) svg {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  color: currentColor !important;
+  background: transparent !important;
+}
+/* 空心/实心是同一位置的两种状态，必须只显示一个，否则图标会叠成重影。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions)
+.tk-action-link .tk-action-icon-solid {
+  display: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions)
+.tk-action-link:hover .tk-action-icon,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions)
+.tk-action-link.tk-liked .tk-action-icon,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions)
+.tk-action-link.tk-disliked .tk-action-icon {
+  display: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions)
+.tk-action-link:hover .tk-action-icon-solid,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions)
+.tk-action-link.tk-liked .tk-action-icon-solid,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions)
+.tk-action-link.tk-disliked .tk-action-icon-solid {
+  display: inline-flex !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-count {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 0 0 0.18rem !important;
+  /* 和列表页一致：计数压到 68% 透明，避免实色数字抢在图标前面 */
+  color: color-mix(in srgb, currentColor 68%, transparent) !important;
+  font-family: inherit !important;
+  font-size: 0.66rem !important;
+  font-weight: 500 !important;
+  font-variant-numeric: tabular-nums !important;
+  line-height: 1 !important;
+}
+/* 计数为空时不占位，避免图标被 0.2rem 空白推偏 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+:is(.tk-status-stream-actions, .tk-status-reply-actions) .tk-action-count:empty {
+  display: none !important;
+  margin: 0 !important;
+}
+
+/* ==========================================================================
+   说说本体操作条（赞 / 踩 / 评论 / 删除）：与列表卡片用同一套 ghost 语言，
+   图标 + 计数等色、无边框、交互态才出淡底；回复行的小胶囊保持原样，
+   两者尺寸层级不同，正好区分「本体动作」和「单条回复的小动作」。
+   ========================================================================== */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action {
+  gap: 0.42rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link {
+  display: inline-flex !important;
+  box-sizing: border-box !important;
+  min-width: 1.72rem !important;
+  min-height: 1.9rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.3rem !important;
+  margin: 0 !important;
+  padding: 0.28rem 0.44rem !important;
+  border: 0 !important;
+  border-radius: 0.62rem !important;
+  background: transparent !important;
+  color: color-mix(in srgb, var(--tk-status-list-accent) 55%, var(--tk-dialog-text, currentColor)) !important;
+  font-family: inherit !important;
+  line-height: 1 !important;
+  transition: background-color 160ms ease, color 160ms ease !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link:hover,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link:focus-visible {
+  background: color-mix(in srgb, var(--tk-status-list-accent) 9%, transparent) !important;
+  color: var(--tk-status-list-accent) !important;
+  outline: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link.tk-liked,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link.tk-disliked {
+  background: transparent !important;
+  color: var(--tk-status-list-accent) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-delete:hover,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-delete:focus-visible {
+  background: rgba(248, 113, 113, 0.14) !important;
+  color: #dc2626 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-icon {
+  width: 1rem !important;
+  height: 1rem !important;
+  flex: 0 0 1rem !important;
+  color: inherit !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-icon svg {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  color: inherit !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link .tk-action-count {
+  display: inline-block !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: 0.78rem !important;
+  font-weight: 550 !important;
+  font-variant-numeric: tabular-nums !important;
+  line-height: 1 !important;
+  /* 与列表页一致：数量默认隐去，hover / 聚焦才显形，触屏常显 */
+  opacity: 0;
+  transition: opacity 160ms ease;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions:hover .tk-action-count,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-actions .tk-action-link:focus-visible .tk-action-count {
+  opacity: 1;
+}
+@media (hover: none) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-actions .tk-action-link .tk-action-count {
+    opacity: 1;
+}
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-dialog-content
+.tk-status-in-dialog :is(.tk-status-reply-actions).tk-action {
+  margin: 0 !important;
+}
+
+/* 信息行：原本是行内流，昵称/徽标/时间字号与 vertical-align 各不相同，
+   中线能差 2~3px、间距也忽大忽小。改成 flex 统一成一条中线。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-meta {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.42rem !important;
+  row-gap: 0.26rem !important;
+  min-height: 1.6rem;
+  line-height: 1.2 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-meta > * {
+  margin: 0 !important;
+  vertical-align: baseline !important;
+}
+/* 评论 ID：从抢眼的蓝色大块降级成可读的低对比小标签 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-comment-copy-id {
+  order: 9;
+  height: auto !important;
+  padding: 0.16rem 0.36rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 18%,
+    var(--tk-status-list-line)
+  ) !important;
+  border-radius: 0.36rem !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 5%,
+    transparent
+  ) !important;
+  box-shadow: none !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: ui-monospace, "JetBrains Mono", Consolas, monospace !important;
+  font-size: 0.6rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  letter-spacing: 0.02em !important;
+  opacity: 0.78;
+  transition:
+    opacity 0.16s ease,
+    color 0.16s ease,
+    border-color 0.16s ease !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-comment-copy-id:hover {
+  opacity: 1;
+  color: var(--tk-status-list-accent) !important;
+  border-color: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 40%,
+    transparent
+  ) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-comment-copy-id.is-copied {
+  opacity: 1;
+  color: #10b981 !important;
+  border-color: rgba(16, 185, 129, 0.45) !important;
+  background: rgba(16, 185, 129, 0.1) !important;
+}
+/* 时间比正文更弱一档，避免和「回复 @」抢层级 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-time {
+  font-size: 0.72rem !important;
+}
+
+/* 回应区标题：标签 + 计数胶囊，和下方分隔线形成清晰的分区 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-status-replies-title {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.42rem !important;
+  margin: 0 0 0.66rem !important;
+  color: var(--tk-status-list-muted) !important;
+  font-family: inherit !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.2 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies .tk-status-replies-title > span {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 1.24rem !important;
+  padding: 0.12rem 0.34rem !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 12%,
+    transparent
+  ) !important;
+  color: var(--tk-status-list-accent) !important;
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+}
+
+/* 底部留白：避免最后一个动作胶囊贴住卡片下缘（评论区面板自身内边距已承担） */
+
+/* ==========================================================================
+   Status author pill
+   弹窗与独立详情页共用：头像 / 昵称 / 等级合成一枚胶囊，放在顶部信息行最前面。
+   --tk-status-list-* 只在弹窗里定义，独立详情页用 currentColor 兜底以跟随主题。
+   ========================================================================== */
+.tk-status-detail-author {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  align-items: center !important;
+  gap: 0.34rem !important;
+  box-sizing: border-box !important;
+  min-height: 1.52rem !important;
+  max-width: 100% !important;
+  margin: 0 0.12rem 0 0 !important;
+  padding: 0.1rem 0.52rem 0.1rem 0.26rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent, currentColor) 20%,
+    transparent
+  ) !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent, currentColor) 9%,
+    var(--tk-status-list-surface, transparent)
+  ) !important;
+  box-shadow: 0 1px 2px color-mix(in srgb, currentColor 8%, transparent) !important;
+  color: inherit !important;
+  font-family: inherit !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  transition:
+    border-color 0.16s ease,
+    background-color 0.16s ease !important;
+}
+.tk-status-detail-author:hover {
+  border-color: color-mix(
+    in srgb,
+    var(--tk-status-list-accent, currentColor) 34%,
+    transparent
+  ) !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent, currentColor) 13%,
+    var(--tk-status-list-surface, transparent)
+  ) !important;
+}
+.tk-status-detail-author .tk-avatar {
+  width: 1.1rem !important;
+  height: 1.1rem !important;
+  min-width: 1.1rem !important;
+  min-height: 1.1rem !important;
+  flex: 0 0 1.1rem !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+}
+.tk-status-detail-author .tk-avatar > .tk-avatar-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
+/* 认证角标跟随小头像缩一档，金色六边形直接用 drop-shadow 贴合描边 */
+.tk-status-detail-author .tk-avatar .tk-avatar-verified {
+  right: -0.04rem !important;
+  bottom: -0.04rem !important;
+  width: 0.66rem !important;
+  height: 0.66rem !important;
+  color: #eab308 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  filter:
+    drop-shadow(0 0 0.6px var(--tk-status-list-surface, #fff))
+    drop-shadow(0 1px 1.5px rgba(15, 23, 42, 0.2)) !important;
+}
+.tk-status-detail-author .tk-status-stream-author,
+.tk-status-detail-author .tk-status-card-name {
+  gap: 0.26rem !important;
+  min-width: 0 !important;
+  line-height: 1 !important;
+}
+.tk-status-detail-author .tk-status-card-name strong {
+  max-width: 100% !important;
+  overflow: hidden !important;
+  color: var(--tk-status-list-text, currentColor) !important;
+  font-family: inherit !important;
+  font-size: 0.76rem !important;
+  font-weight: 650 !important;
+  line-height: 1.1 !important;
+  text-overflow: ellipsis !important;
+}
+.tk-status-detail-author .tk-level-badge {
+  min-height: 0.92rem !important;
+  padding: 0.02rem 0.28rem !important;
+  border-radius: 999px !important;
+  font-size: 0.54rem !important;
+  line-height: 1 !important;
+}
+.tk-status-detail-author .tk-badge-icon {
+  width: 0.52rem !important;
+  height: 0.52rem !important;
+  flex: 0 0 0.52rem !important;
+}
+
+/* 位置 / 心情图标：独立详情页没有弹窗里那套尺寸规则，这里给一份兜底，
+   否则 SVG 会按容器宽度撑满整张卡片。 */
+.tk-status-stream-detail-head .tk-status-stream-context-icon,
+.tk-status-stream-detail-head .tk-status-mood-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 0.9rem !important;
+  height: 0.9rem !important;
+  flex: 0 0 0.9rem !important;
+  background: transparent !important;
+}
+.tk-status-stream-detail-head .tk-status-stream-context-icon svg,
+.tk-status-stream-detail-head .tk-status-mood-icon svg {
+  display: block !important;
+  width: 0.82rem !important;
+  height: 0.82rem !important;
+  background: transparent !important;
+}
+
+/* 位置 / 心情胶囊：与作者胶囊同一套视觉，独立详情页没有弹窗变量时用 currentColor 兜底 */
+.tk-status-stream-detail-head .tk-status-stream-context,
+.tk-status-stream-detail-head .tk-status-stream-chip {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.3rem !important;
+  box-sizing: border-box !important;
+  min-height: 1.52rem !important;
+  margin: 0 !important;
+  padding: 0.2rem 0.54rem !important;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--tk-status-list-accent, currentColor) 15%,
+    transparent
+  ) !important;
+  border-radius: 999px !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent, currentColor) 7%,
+    var(--tk-status-list-surface, transparent)
+  ) !important;
+  color: var(--tk-status-list-accent, currentColor) !important;
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+/* 底部：作者已上移，只剩功能状态与操作，改成一左一右的单行。
+   不再画分割线——内容与评论之间用评论区底色深浅区分。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-footer.tk-status-stream-detail-footer {
+  display: flex !important;
+  grid-template-columns: none !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 0.5rem 0.72rem !important;
+  margin-top: 0.62rem !important;
+  padding: 0 !important;
+  border-top: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-footer > .tk-status-stream-actions {
+  flex: 0 0 auto !important;
+  margin-left: auto !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-footer > .tk-status-stream-feature-state {
+  flex: 0 1 auto !important;
+  margin-right: auto !important;
+  text-align: left !important;
+}
+/* 评论区：外层不再铺底色，只保留每条回复自己的块；取消内缩，让回复块与正文同宽对齐 */
+/* 回复区在 detail-scroll 内（不是 copy 的直接子级），选择器必须带上这一层，否则整条失效 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-copy > .tk-status-stream-detail-scroll > .tk-status-replies {
+  margin-top: 0.78rem !important;
+  padding: 0 !important;
+  border-top: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+/* 评论区内部不再逐条画线，靠间距与头像锚点分条 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies
+.tk-replies > .tk-comment {
+  border-top: 0 !important;
+  padding-top: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-replies
+.tk-replies > .tk-comment + .tk-comment {
+  margin-top: 0.6rem !important;
+}
+
+/* 回复行操作：缩成与信息行同高的小胶囊，贴在信息行最右侧并垂直居中 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-replies .tk-replies > .tk-comment > .tk-main > .tk-row {
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.3rem 0.5rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-replies .tk-replies > .tk-comment > .tk-main > .tk-row > .tk-meta {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-replies .tk-replies > .tk-comment > .tk-main > .tk-row > .tk-status-reply-actions {
+  flex: 0 0 auto !important;
+  align-self: center !important;
+  gap: 0.26rem !important;
+  margin: 0 0 0 auto !important;
+  padding: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-replies .tk-status-reply-actions .tk-action-link {
+  gap: 0.16rem !important;
+  min-width: 1.24rem !important;
+  min-height: 1.24rem !important;
+  padding: 0.08rem 0.32rem !important;
+  border-color: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 13%,
+    transparent
+  ) !important;
+  background: color-mix(
+    in srgb,
+    var(--tk-status-list-accent) 5%,
+    transparent
+  ) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-replies .tk-status-reply-actions .tk-action-icon {
+  width: 0.64rem !important;
+  height: 0.64rem !important;
+  flex: 0 0 0.64rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-replies .tk-status-reply-actions .tk-action-count {
+  margin-left: 0.12rem !important;
+  font-size: 0.58rem !important;
+  font-weight: 500 !important;
+}
+@media (max-width: 560px) {
+  /* 窄屏：一行放不下时，操作胶囊折到下一行最右侧，不挤压昵称与时间 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-replies .tk-replies > .tk-comment > .tk-main > .tk-row > .tk-status-reply-actions {
+    flex: 0 0 auto !important;
+    margin: 0.08rem 0 0 auto !important;
+    align-self: center !important;
+}
+}
+
+/* 窄屏：作者胶囊独占一行，位置/心情排成两列网格，避免单个标签落单成一行。 */
+@media (max-width: 560px) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-head {
+    position: relative !important;
+    gap: 0.52rem !important;
+    padding-right: 2.3rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-head .tk-status-stream-kicker {
+    display: grid !important;
+    grid-template-columns: auto auto;
+    align-items: center !important;
+    justify-content: start !important;
+    gap: 0.34rem 0.38rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-head .tk-status-stream-kicker > * {
+    max-width: 100% !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-head .tk-status-stream-kicker > .tk-status-detail-author {
+    grid-column: 1 / -1 !important;
+    justify-self: start !important;
+    margin: 0 0 0.08rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-detail-head .tk-status-dialog-close {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+}
+}
+@media (max-width: 640px) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body {
+    padding: 0 !important;
+    scrollbar-gutter: auto;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-dialog-content {
+    padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+    border-radius: 1.3rem 1.3rem 0 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel
+  .tk-status-dialog-body .tk-status-in-dialog
+  .tk-status-stream-head-meta > .tk-status-dialog-close {
+    margin-left: auto !important;
+}
+}
+/* 已置顶标签 hover 变「取消置顶」：需要比「meta 子元素统一 muted 色」那条更高的权重 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-pinned-action:hover,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-head-meta > .tk-status-pinned-action:focus-visible,
+html body .tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-pinned-action:hover,
+html body .tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-pinned-action:focus-visible {
+  border-color: rgba(220, 38, 38, 0.5) !important;
+  color: #dc2626 !important;
+  background: rgba(248, 113, 113, 0.14) !important;
+}
+/* 说明：详情弹窗会被 JS 挂到 body 下，祖先链里没有 .tk-status-mode / .tk-status-list /
+   .tk-status-detail，所有样式必须带 dialog-layer 前缀；详情直链页才走 .tk-status-detail。 */
+.tk-status-detail .tk-status-stream-footer .tk-status-stream-counts,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-stream-counts {
+  display: inline-flex !important;
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  align-items: center !important;
+  align-self: center !important;
+  justify-self: start !important;
+  gap: 0.4rem !important;
+  min-width: 0 !important;
+  /* 详情 footer 是 flex 且存在其它规则干扰，用 auto margin 兜住垂直居中 */
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  /* 弹窗里 currentColor 会继承到正文色，深浅主题下都不够灰；
+     直接用弹窗自己的主题变量（浅色 #697586 / 深色 #9aa7b8） */
+  color: var(--tk-dialog-muted, color-mix(in srgb, currentColor 58%, transparent)) !important;
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
+  font-weight: 560 !important;
+  font-variant-numeric: tabular-nums !important;
+  line-height: 1.2 !important;
+}
+.tk-status-detail .tk-status-stream-footer .tk-status-stream-counts .tk-status-count,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-stream-counts .tk-status-count {
+  color: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  white-space: nowrap !important;
+}
+.tk-status-detail .tk-status-stream-footer .tk-status-stream-counts .tk-status-count-divider,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-stream-counts .tk-status-count-divider {
+  width: 0.22rem !important;
+  height: 0.22rem !important;
+  border-radius: 50% !important;
+  background: var(--tk-dialog-muted, currentColor) !important;
+  opacity: 0.6 !important;
+}
+
+/* 详情作者头像上的认证角标再收一档，避免压住头像轮廓；
+   弹窗被挂到 body 下，需要单独给前缀 */
+.tk-status-detail-author .tk-avatar .tk-avatar-verified,
+html body .tk-status-dialog-layer .tk-status-detail-author .tk-avatar .tk-avatar-verified {
+  width: 0.56rem !important;
+  height: 0.56rem !important;
+}
+/* ==========================================================================
+   说说评论区：每条回复独立成块
+   底纹不跟随皮肤渐变色，浅色用半透明白提亮、深色压暗，
+   四边内边距等值，块与块之间用固定间距，不再依赖分割线
+   ========================================================================== */
+.tk-status-replies {
+  --tk-reply-surface: rgba(255, 255, 255, 0.6);
+  --tk-reply-line: rgba(15, 23, 42, 0.08);
+}
+html.dark .tk-status-replies,
+.dark .tk-status-replies,
+[data-theme="dark"] .tk-status-replies {
+  --tk-reply-surface: rgba(11, 18, 30, 0.46);
+  --tk-reply-line: rgba(255, 255, 255, 0.1);
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-replies .tk-replies > .tk-comment {
+  margin-top: 0 !important;
+  padding-top: 0.85rem !important;
+  padding-right: 0.95rem !important;
+  padding-bottom: 0.85rem !important;
+  padding-left: 0.95rem !important;
+  border: 1px solid var(--tk-reply-line) !important;
+  border-top: 1px solid var(--tk-reply-line) !important;
+  border-radius: 0.9rem !important;
+  background: var(--tk-reply-surface) !important;
+  box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+.tk-status-in-dialog .tk-status-replies .tk-replies > .tk-comment + .tk-comment {
+  margin-top: 0.55rem !important;
+}
+
+/* 详情直链页（非弹窗）同一套视觉 */
+.tk-status-detail .tk-status-replies .tk-replies > .tk-comment {
+  margin-top: 0 !important;
+  padding-top: 0.85rem !important;
+  padding-right: 0.95rem !important;
+  padding-bottom: 0.85rem !important;
+  padding-left: 0.95rem !important;
+  border: 1px solid var(--tk-reply-line) !important;
+  border-radius: 0.9rem !important;
+  background: var(--tk-reply-surface) !important;
+  box-shadow: none !important;
+}
+.tk-status-detail .tk-status-replies .tk-replies > .tk-comment + .tk-comment {
+  margin-top: 0.55rem !important;
+}
+@media (max-width: 640px) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+  .tk-status-in-dialog .tk-status-replies .tk-replies > .tk-comment,
+  .tk-status-detail .tk-status-replies .tk-replies > .tk-comment {
+    padding: 0.72rem 0.72rem !important;
+    border-radius: 0.8rem !important;
+}
+}
+/* 滚动时保住四角：panel 是 v5 的无框壳（transparent + radius 0），
+   真正的白底在滚动容器内部，溢出后会被裁成直角。
+   这里给壳和滚动容器补同半径的圆角，让 overflow 裁剪本身带圆角。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel {
+  border-radius: 1.45rem !important;
+  overflow: hidden !important;
+  isolation: isolate;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body {
+  border-radius: 1.45rem !important;
+}
+@media (max-width: 640px) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel {
+    border-radius: 1.3rem !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body {
+    border-radius: 1.3rem !important;
+}
+}
+/* 滚动时作者信息吸顶：窗口和四角保持不动，只有正文与评论在滚。
+   .tk-status-dialog-content 原本带 overflow: hidden，会截断 sticky 的粘附上下文，
+   这里放开；裁剪和圆角由 .tk-status-dialog-body 负责。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+.tk-status-dialog-content {
+  overflow: visible !important;
+}
+
+/* 弹窗被移到 body 下，不在 .twikoo 容器里，深色主题的
+   `html.dark .twikoo .tk-submit .el-textarea__inner` 匹配不到，
+   输入框会停在浅色底 + 白字。变量原本定义在 .tk-submit 上（比弹窗根更近），
+   所以必须在这一层重设；用弹窗自己的 surface/text 混合，两套主题都自动跟随。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-submit {
+  --tk-submit-field-bg: color-mix(in srgb, var(--tk-dialog-text) 7%, var(--tk-dialog-surface));
+  --tk-submit-field-text: var(--tk-dialog-text);
+  --tk-submit-field-border: color-mix(in srgb, var(--tk-dialog-text) 14%, transparent);
+  /* 表情栏 / 底部操作条同样读这两个变量，深色下否则会留一条浅灰底 */
+  --tk-comment-surface: color-mix(in srgb, var(--tk-dialog-text) 6%, var(--tk-dialog-surface));
+  --tk-comment-text: var(--tk-dialog-text);
+  --tk-comment-border: color-mix(in srgb, var(--tk-dialog-text) 12%, transparent);
+}
+
+/* 表情栏底色写死成 rgba(255,255,255,.54)，深色弹窗下会留一条浅灰；
+   这里让它跟弹窗 surface 走 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-submit .tk-quick-emojis {
+  background: color-mix(in srgb, var(--tk-dialog-text) 5%, var(--tk-dialog-surface)) !important;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tk-dialog-text) 10%, transparent) !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-submit .el-textarea__inner::placeholder,
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-submit .el-input__inner::placeholder {
+  color: color-mix(in srgb, var(--tk-dialog-text) 42%, transparent) !important;
+}
+
+/* 头部固定、内容独立滚动。
+   模板已把 header 之后的「正文 / 页脚 / 评论」包进 .tk-status-stream-detail-scroll，
+   这里把整条容器链改成 flex 纵向布局，header 作为不收缩的首项留在滚动区之外，
+   滚动只发生在 scroll 层。因此头部不需要任何底色或模糊，也不会有内容从它下面穿过；
+   滚动时上方留白与初始状态一致。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body {
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+}
+
+/* 容器链每一层都必须 flex 化才能把高度约束传下去。
+   注意：历史样式里存在长达 8 个类的 `display: block !important`（如
+   `… .tk-status-card > .tk-status-stream-detail-layout`），短选择器会被压制，
+   所以这里刻意用同等长度的完整链覆盖，并统一放开 height: auto。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+.tk-status-dialog-content {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  align-items: stretch !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  align-items: stretch !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog > .tk-status-root-wrap {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  align-items: stretch !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog > .tk-status-root-wrap > .tk-status-card {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  align-items: stretch !important;
+  height: auto !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog > .tk-status-root-wrap > .tk-status-card
+> .tk-status-stream-detail-layout {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  align-items: stretch !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-dialog-content
+> .tk-comment.tk-status-in-dialog > .tk-status-root-wrap > .tk-status-card
+> .tk-status-stream-detail-layout > .tk-status-stream-detail-copy {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  align-items: stretch !important;
+  height: auto !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-head {
+  /* 头部留在滚动流里做 sticky：透明背景才能"真的透"，
+     内容会从胶囊下面滑过，而不是被裁在滚动区上沿 */
+  position: sticky !important;
+  top: 0 !important;
+  flex: 0 0 auto !important;
+  z-index: 5 !important;
+  margin: 0 !important;
+  padding-top: 1.2rem !important;
+  /* 完全透明：不加底色、不做模糊，内容从胶囊下面经过时保持原样可见。
+     胶囊自身有底色，所以胶囊上的文字依然清晰。 */
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-scroll {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  padding-bottom: 0 !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+/* 头部与正文的间隔只由头部的 padding-bottom 提供；
+   正文容器自带的上内边距会和它叠加，这里清零。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-body {
+  padding-top: 0 !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body .tk-status-in-dialog
+.tk-status-stream-detail-scroll::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  display: none !important;
+}
+/* 弹窗详情区隐藏滚动条（宽窄屏都生效）：轨道、预留槽一并去掉，
+   滚动本身仍可用滚轮 / 触摸 / 键盘。 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  scrollbar-gutter: auto !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  display: none !important;
+}
+
+/* 弹窗布局：窗口随内容自适应，超出上限才滚动。
+   v5 的「一面到底」把底色 / 边框 / 圆角挂在 .tk-status-dialog-content 上，
+   但那层高度跟着内容走、一滚就动；这里把「窗口面」整体上移到滚动容器 .tk-status-dialog-body，
+   它自己就是窗口边界，圆角常驻。 */
+@media (min-width: 641px) {
+html body .tk-status-dialog-layer .tk-status-dialog-panel {
+    height: auto !important;
+    max-height: min(89dvh, 52rem) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body {
+    /* 窗口高度由内容驱动、上限受 panel 约束；
+       溢出交给内部的 .tk-status-stream-detail-scroll，这里不再自己滚 */
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    border: 1px solid color-mix(in srgb, var(--tk-dialog-line) 88%, transparent) !important;
+    border-radius: 1.45rem !important;
+    background: var(--tk-dialog-surface, #fff) !important;
+    box-shadow:
+      0 2px 8px rgba(15, 23, 42, 0.08),
+      0 34px 92px rgba(15, 23, 42, 0.32) !important;
+}
+
+  /* 内容层交出底色 / 边框 / 圆角，避免与滚动容器叠成「框中框」 */
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-status-dialog-body
+  .tk-status-dialog-content {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+}
+
+/* 回复框收放：高度 + 透明度过渡，避免发布成功后整块内容瞬移。
+   Vue 2 的进入起始类是 -enter（没有 -enter-from）。 */
+.tk-status-reply-form-enter-active,
+.tk-status-reply-form-leave-active {
+  overflow: hidden;
+  transition: height 0.26s cubic-bezier(0.22, 0.61, 0.36, 1), opacity 0.18s ease;
+}
+.tk-status-reply-form-enter,
+.tk-status-reply-form-leave-to {
+  opacity: 0;
+}
+/* 新回复进场：从下方轻微上浮，避免"评论突然出现" */
+@keyframes tk-status-reply-in {
+from {
+    opacity: 0;
+    transform: translateY(6px);
+}
+to {
+    opacity: 1;
+    transform: none;
+}
+}
+html body .tk-status-dialog-layer .tk-status-dialog-panel .tk-replies > .tk-comment {
+  animation: tk-status-reply-in 0.28s cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
 }
 
 
@@ -7494,16 +9353,18 @@ html body .tk-status-dialog-layer .tk-status-dialog-body
   line-height: 1.15;
   transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
 }
-.tk-status-mode .tk-status-pin-action { display: none;
-}
-.tk-status-mode .tk-status-card-state:hover .tk-status-pin-action,
-.tk-status-mode .tk-status-card-state:focus-within .tk-status-pin-action { display: inline-flex;
+/* 未置顶的管理入口：显隐交给视图层（列表页 hover 才出现，详情页常显） */
+.tk-status-mode .tk-status-pin-action,
+.tk-status-mode .tk-status-pinned-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .tk-status-mode .tk-status-pinned-action:hover,
 .tk-status-mode .tk-status-pinned-action:focus-visible {
-  border-color: rgba(220, 38, 38, 0.42);
-  color: #b91c1c;
-  background: rgba(248, 113, 113, 0.12);
+  border-color: rgba(220, 38, 38, 0.5);
+  color: #dc2626;
+  background: rgba(248, 113, 113, 0.14);
   outline: none;
 }
 .tk-status-mode .tk-status-item.tk-status-expired {
@@ -7787,7 +9648,8 @@ to { opacity: 1; transform: translateY(0);
   margin: 0 0 0 0.95rem;
   color: #64748b !important;
 }
-.tk-status-mode .tk-status-item .tk-status-item-actions .tk-action-icon {
+.tk-status-mode .tk-status-item .tk-status-item-actions .tk-action-icon,
+.tk-status-mode .tk-status-item .tk-status-item-actions .tk-action-icon-solid {
   color: currentColor !important;
 }
 .tk-status-mode .tk-status-item .tk-status-item-actions .tk-action-count {
@@ -7795,7 +9657,6 @@ to { opacity: 1; transform: translateY(0);
   font-size: 0.72rem;
 }
 .tk-status-mode .tk-status-item .tk-status-item-actions .tk-action-link.tk-liked,
-.tk-status-mode .tk-status-item .tk-status-item-actions .tk-action-link.tk-liked .tk-action-icon-solid,
 .tk-status-mode .tk-status-item .tk-status-item-actions .tk-action-link:hover {
   color: #409eff !important;
 }
@@ -7804,7 +9665,6 @@ to { opacity: 1; transform: translateY(0);
   padding: 0.82rem 0 0.82rem;
   border-top: 1px solid rgba(148, 163, 184, 0.12);
 }
-.tk-status-mode .tk-status-replies-empty,
 .tk-status-mode .tk-status-item .tk-replies-empty {
   display: none;
 }
@@ -8126,6 +9986,48 @@ html.dark .tk-status-mode .tk-status-list,
   color: var(--tk-status-list-text);
   transition: border-color 180ms ease, box-shadow 220ms ease;
 }
+/* 列表卡片进场：只做透明度，避免与 hover 位移 / 皮肤动效抢样式 */
+@keyframes tk-status-card-fade-in {
+from { opacity: 0;
+}
+to { opacity: 1;
+}
+}
+.tk-status-mode .tk-status-list .tk-comments-container > .tk-status-item.tk-status-item {
+  animation: tk-status-card-fade-in 0.3s ease backwards;
+}
+/* 删除中：淡出 + 高度 / 外边距收缩（高度由 JS 先钉成 px 再收到 0，否则 auto 无法过渡） */
+/* 楼中楼回复 / 普通评论删除：淡出 + 高度收起（回复的间距在 margin-top 上）。
+   透明度与高度时长尽量接近，避免"内容先没了、空白块还在缩"的割裂感。 */
+.tk-replies > .tk-comment.is-removing,
+.tk-comments-container > .tk-comment.is-removing {
+  /* 进场动画用了 fill-mode: both，动画结束后仍占着 opacity，
+     transition 就接管不了（实测透明度 45ms 内直接跳到 0、看不到淡出） */
+  animation: none !important;
+  opacity: 0 !important;
+  pointer-events: none;
+  overflow: hidden;
+  transition:
+    opacity 0.26s ease,
+    max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    margin-top 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    padding-top 0.3s ease,
+    padding-bottom 0.3s ease,
+    border-width 0.3s ease;
+}
+.tk-status-mode .tk-status-list .tk-comments-container > .tk-status-item.tk-status-item.is-removing {
+  animation: none !important;
+  opacity: 0 !important;
+  pointer-events: none;
+  overflow: hidden;
+  transition:
+    opacity 0.26s ease,
+    max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    margin-bottom 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    padding-top 0.3s ease,
+    padding-bottom 0.3s ease,
+    border-width 0.3s ease;
+}
 .tk-status-mode .tk-status-list .tk-comments-container > .tk-status-item.tk-status-item:focus-within {
   border-color: color-mix(in srgb, var(--tk-status-list-accent) 42%, var(--tk-status-list-line)) !important;
 }
@@ -8260,13 +10162,6 @@ html.dark .tk-status-mode .tk-status-list,
 .tk-status-mode .tk-status-list .tk-status-edit-action,
 .tk-status-mode .tk-status-list .tk-status-pinned-action {
   cursor: pointer;
-}
-.tk-status-mode .tk-status-list .tk-status-pin-action {
-  display: none;
-}
-.tk-status-mode .tk-status-list .tk-status-card-state:hover .tk-status-pin-action,
-.tk-status-mode .tk-status-list .tk-status-card-state:focus-within .tk-status-pin-action {
-  display: inline-flex;
 }
 .tk-status-mode .tk-status-list .tk-status-pinned-action:hover,
 .tk-status-mode .tk-status-list .tk-status-edit-action:hover {
@@ -8474,14 +10369,6 @@ html.dark .tk-status-mode .tk-status-list .tk-comments-container > .tk-status-it
     linear-gradient(135deg, color-mix(in srgb, var(--tk-status-list-accent) 9%, transparent) 0%, transparent 48%),
     var(--tk-status-list-surface) !important;
 }
-.tk-status-mode .tk-status-list .tk-status-skeleton-card {
-  min-height: 9rem !important;
-  padding: 1.3rem 1.62rem !important;
-  border: 1px solid var(--tk-status-list-line) !important;
-  border-radius: 1.35rem !important;
-  background: var(--tk-status-list-surface) !important;
-  box-shadow: var(--tk-status-list-shadow) !important;
-}
 @media (max-width: 640px) {
 .tk-status-mode .tk-status-list .tk-comments-container > .tk-status-item.tk-status-item {
     margin-bottom: 0.72rem !important;
@@ -8546,9 +10433,6 @@ html.dark .tk-status-mode .tk-status-list .tk-comments-container > .tk-status-it
 }
 .tk-status-mode .tk-status-list .tk-status-reply-inline {
     margin: 0 0.98rem 1rem;
-}
-.tk-status-mode .tk-status-list .tk-status-skeleton-card {
-    padding: 1.15rem 0.98rem !important;
 }
 }
 
@@ -8814,11 +10698,6 @@ html.dark .tk-status-mode .tk-status-list .tk-status-media-stage,
     top: 0.76rem;
     left: 0.86rem;
 }
-.tk-status-mode .tk-status-list .tk-status-skeleton-card {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: auto 10.75rem !important;
-    min-height: 0 !important;
-}
 }
 
 
@@ -9052,6 +10931,36 @@ html.dark .tk-status-mode .tk-status-list .tk-status-media-stage,
 .tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-edit-action,
 .tk-status-mode .tk-status-list .tk-status-stream-head-meta button.tk-status-pinned {
   cursor: pointer;
+}
+/* 未置顶：管理入口只在鼠标进入卡片（或键盘聚焦）时浮现，其余时间让日期干净 */
+.tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-pin-action {
+  display: inline-flex;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.16s ease;
+}
+.tk-status-mode .tk-status-list .tk-status-card:hover .tk-status-stream-head-meta .tk-status-pin-action,
+.tk-status-mode .tk-status-list .tk-status-card:focus-within .tk-status-stream-head-meta .tk-status-pin-action {
+  opacity: 1;
+  pointer-events: auto;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-pin-action:hover {
+  border-color: color-mix(in srgb, var(--tk-status-list-accent) 32%, transparent) !important;
+  color: var(--tk-status-list-accent) !important;
+  background: color-mix(in srgb, var(--tk-status-list-accent) 10%, transparent) !important;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-pinned-action:hover {
+  /* 置顶色是常驻 !important 的琥珀，取消动作必须显式压回去 */
+  border-color: rgba(220, 38, 38, 0.5) !important;
+  color: #dc2626 !important;
+  background: rgba(248, 113, 113, 0.14) !important;
+}
+/* 触屏没有 hover，管理入口只能常显，否则手机上永远点不到置顶 */
+@media (hover: none) {
+.tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-pin-action {
+    opacity: 1;
+    pointer-events: auto;
+}
 }
 .tk-status-mode .tk-status-list .tk-status-stream-body {
   margin: 0 !important;
@@ -9611,17 +11520,18 @@ html.dark .tk-status-mode .tk-status-list .tk-comments-container > .tk-status-it
   border-radius: 999px !important;
 }
 .tk-status-mode .tk-status-list .tk-status-stream-signature > .tk-avatar .tk-avatar-verified {
-  right: -0.04rem !important;
-  bottom: -0.04rem !important;
+  right: -0.05rem !important;
+  bottom: -0.05rem !important;
   z-index: 7 !important;
-  width: 0.82rem !important;
-  height: 0.82rem !important;
-  color: #4d9df3 !important;
-  background: var(--tk-status-list-surface, var(--card-bg, #fff)) !important;
-  border-radius: 999px !important;
-  box-shadow:
-    0 0 0 1px var(--tk-status-list-surface, var(--card-bg, #fff)),
-    0 1px 2px rgba(15, 23, 42, 0.2) !important;
+  width: 0.86rem !important;
+  height: 0.86rem !important;
+  color: #eab308 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  filter:
+    drop-shadow(0 0 0.7px var(--tk-status-list-surface, var(--card-bg, #fff)))
+    drop-shadow(0 1px 2px rgba(15, 23, 42, 0.2)) !important;
 }
 .tk-status-mode .tk-status-list .tk-status-stream-author {
   min-width: 0;
@@ -10429,47 +12339,119 @@ html.dark .tk-status-mode .tk-status-list .tk-status-card,
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.38rem;
+  /* 按钮自身带横向内边距，组间距收窄才不会把三个图标拉散 */
+  gap: 0.12rem;
+}
+
+/* ==========================================================================
+   说说操作按钮（赞 / 踩 / 评论 / 删除）
+   参考 X、GitHub 的做法：图标 + 计数是一个等色的整体单元，不放边框、不铺底色，
+   只有交互态才浮出一层淡底。计数用等宽数字、与图标同色同清晰度，
+   靠字号差（16px / 11.5px）建立层级，而不是靠"透明度"——虚实不一才显得别扭。
+   ========================================================================== */
+.tk-status-mode .tk-status-list .tk-status-item-actions {
+  gap: 0.42rem;
 }
 .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link {
   display: inline-flex !important;
-  min-width: 2.02rem;
-  min-height: 1.92rem;
+  box-sizing: border-box;
+  min-width: 1.72rem;
+  min-height: 1.9rem;
   align-items: center;
   justify-content: center;
+  gap: 0.3rem;
   margin: 0 !important;
-  padding: 0.3rem 0.58rem !important;
-  border: 1px solid color-mix(in srgb, var(--tk-status-list-accent) 16%, transparent) !important;
-  border-radius: 999px !important;
-  background: color-mix(in srgb, var(--tk-status-list-accent) 7%, var(--tk-status-list-surface)) !important;
-  color: var(--tk-status-list-accent) !important;
-  line-height: 1 !important;
-  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease !important;
-}
-.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:hover {
-  border-color: color-mix(in srgb, var(--tk-status-list-accent) 34%, transparent) !important;
-  background: color-mix(in srgb, var(--tk-status-list-accent) 12%, var(--tk-status-list-surface)) !important;
-}
-.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-reply,
-.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-reply:hover,
-.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-reply:focus-visible {
-  border-color: transparent !important;
+  padding: 0.28rem 0.44rem !important;
+  border: 0 !important;
+  border-radius: 0.62rem !important;
   background: transparent !important;
-  box-shadow: none !important;
+  /* muted 这个变量自带 alpha，直接当按钮色会发虚；掺一档正文色让图标和数字都实起来 */
+  color: color-mix(in srgb, var(--tk-status-list-accent) 55%, var(--tk-status-list-text)) !important;
+  line-height: 1 !important;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease !important;
+}
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:hover,
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:focus-visible {
+  background: color-mix(in srgb, var(--tk-status-list-accent) 8%, transparent) !important;
+  color: var(--tk-status-list-accent) !important;
+  outline: none;
+}
+
+/* 已点赞 / 已踩：只靠实心图标 + 主题色表达状态，不给常驻底色，
+   底色留给 hover，视觉上才和评论、删除完全同一种交互反馈 */
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link.tk-liked,
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link.tk-disliked {
+  color: var(--tk-status-list-accent) !important;
+}
+
+/* 删除是低频且危险的动作：尺寸与其它按钮一致（计数位同样留白），只在 hover 时才红 */
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-delete {
+  min-width: 1.72rem;
+  padding: 0.28rem 0.44rem !important;
+}
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-delete:hover,
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-delete:focus-visible {
+  background: rgba(248, 113, 113, 0.14) !important;
+  color: #dc2626 !important;
 }
 .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-icon {
-  width: 0.86rem;
-  height: 0.86rem;
-  color: var(--tk-status-list-accent) !important;
+  width: 1rem;
+  height: 1rem;
+  color: inherit !important;
+  /* 极轻微的抬升，hover 时按钮才有"活"的感觉，幅度小到不会晃眼 */
+  transition: transform 160ms ease !important;
 }
-.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-count {
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:hover .tk-action-icon,
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:focus-visible .tk-action-icon {
+  transform: translateY(-0.06rem) !important;
+}
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-icon svg {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* 计数与图标同色同清晰度，只小一号；用等宽字体承接列表里日期的数字语言 */
+html body .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link .tk-action-count {
+  display: inline-block;
   min-width: 0;
   height: auto;
-  margin-left: 0.24rem;
-  color: inherit;
-  font-size: 0.68rem;
-  font-weight: 650;
+  margin: 0;
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: 0.78rem !important;
+  font-weight: 550 !important;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
   line-height: 1;
+  /* 默认隐去、宽度仍在，所以三个按钮等宽且没有跳动；
+     只有 hover / 键盘聚焦才把数量显出来，触屏没有 hover 就常显 */
+  opacity: 0;
+  transition: opacity 160ms ease;
+}
+
+/* 悬停整组而不是单个按钮：三个数量一起浮现，不用逐个去试探 */
+html body .tk-status-mode .tk-status-list .tk-status-item-actions:hover .tk-action-count,
+html body .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:focus-visible .tk-action-count {
+  opacity: 1;
+}
+@media (hover: none) {
+html body .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link .tk-action-count {
+    opacity: 1;
+}
+}
+
+/* 计数为 0 时只剩图标：空 count 不能占位，否则删除按钮的图标会偏左 */
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-count:empty {
+  display: none;
+}
+
+/* 只有 hover / 键盘聚焦时把计数提回实色；已赞状态也保持淡，否则常驻的实心数字又会跳出来 */
+html body .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:hover .tk-action-count,
+html body .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link:focus-visible .tk-action-count {
+  color: var(--tk-status-list-accent) !important;
 }
 .tk-status-mode .tk-status-list .tk-status-like-feedback {
   color: var(--tk-status-list-muted);
@@ -10512,9 +12494,43 @@ html.dark .tk-status-mode .tk-status-list .tk-status-card,
     justify-content: flex-start;
     gap: 0.34rem 0.45rem;
 }
+
+  /* 地点胶囊的基础样式原本只写在 min-width:761 段里，窄屏拿不到就会退化成 block，
+     里面没有尺寸的 SVG 会撑满整行——这里补齐同一套，只在 padding 上做窄屏收缩 */
 .tk-status-mode .tk-status-list .tk-status-stream-context {
+    display: inline-flex;
+    min-height: 1.52rem;
+    box-sizing: border-box;
+    align-items: center;
     max-width: 100%;
+    gap: 0.34rem;
     padding: 0.3rem 0.58rem;
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--tk-status-list-line) 68%, transparent);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--tk-status-list-line) 20%, transparent);
+    color: var(--tk-status-list-muted);
+    font-family: inherit;
+    font-size: 0.7rem;
+    font-weight: 560;
+    line-height: 1;
+    white-space: nowrap;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-context > span:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-context-icon {
+    display: inline-flex;
+    width: 0.68rem;
+    height: 0.68rem;
+    flex: 0 0 auto;
+    opacity: 0.64;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-context-icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 .tk-status-mode .tk-status-list .tk-status-stream-body .tk-content {
     padding-left: 0;
@@ -10554,9 +12570,19 @@ html.dark .tk-status-mode .tk-status-list .tk-status-card,
     justify-self: stretch;
     justify-content: center;
 }
+
+  /* 触屏要把点击区撑大，否则 28px 的图标按钮很难点中 */
+.tk-status-mode .tk-status-list .tk-status-item-actions {
+    gap: 0.2rem;
+}
 .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-link {
-    min-height: 1.82rem;
-    padding: 0.27rem 0.52rem !important;
+    min-width: 2.05rem;
+    min-height: 2.05rem;
+    padding: 0.34rem 0.46rem !important;
+}
+.tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-icon {
+    width: 1.05rem;
+    height: 1.05rem;
 }
 .tk-status-mode .tk-status-list .tk-status-item-actions .tk-action-count {
     font-size: 0.66rem;
@@ -10565,6 +12591,123 @@ html.dark .tk-status-mode .tk-status-list .tk-status-card,
     min-height: 1.52rem !important;
     padding: 0.2rem 0.54rem !important;
     font-size: 0.7rem !important;
+}
+
+  /* 触屏没有 hover，置顶入口常显，尺寸要与心情胶囊对齐才好点 */
+.tk-status-mode .tk-status-list .tk-status-stream-head-meta .tk-status-pinned {
+    min-height: 1.52rem !important;
+    padding: 0.2rem 0.54rem !important;
+    font-size: 0.7rem !important;
+}
+}
+
+/* ==========================================================================
+   说说卡片头部：身份胶囊（头像 + 昵称 + 等级）排在地址胶囊之前
+   与地址胶囊共用同一套尺寸 / 边框 / 底色，保证同一条横线上等高等距
+   ========================================================================== */
+.tk-status-mode .tk-status-list .tk-status-stream-identity {
+  display: inline-flex;
+  min-height: 1.52rem;
+  box-sizing: border-box;
+  align-items: center;
+  max-width: min(100%, 16rem);
+  gap: 0.34rem;
+  padding: 0.14rem 0.58rem 0.14rem 0.16rem;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--tk-status-list-line) 68%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--tk-status-list-line) 20%, transparent);
+  color: var(--tk-status-list-muted);
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 560;
+  line-height: 1;
+  white-space: nowrap;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-identity > .tk-avatar,
+.tk-status-mode .tk-status-list .tk-status-stream-identity > .tk-avatar .tk-avatar-img {
+  width: 1.22rem !important;
+  height: 1.22rem !important;
+  flex: 0 0 auto;
+  margin: 0 !important;
+  border-radius: 50%;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-identity-name {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.26rem;
+  overflow: hidden;
+  line-height: 1;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-identity-name strong {
+  overflow: hidden;
+  color: var(--tk-status-list-text);
+  font-size: 0.74rem;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-identity-name a {
+  display: inline-flex;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 头部胶囊不参与收缩：一行放不下就整体换行，避免地址被压扁成半截省略号 */
+.tk-status-mode .tk-status-list .tk-status-stream-kicker > * {
+  flex: 0 0 auto;
+}
+
+/* 身份胶囊里头像只有 1.22rem，默认 0.9rem 的认证六边形会盖掉半张脸 */
+.tk-status-mode .tk-status-list .tk-status-stream-identity .tk-avatar-verified {
+  right: 0;
+  bottom: 0;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+/* 统计分析：只读文本放在 footer 左栏，与右侧动作按钮同一水平线；
+   数字与「条点赞 / 条评论」统一用同一个颜色，只保留等宽数字对齐 */
+.tk-status-mode .tk-status-list .tk-status-stream-counts {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  color: color-mix(in srgb, var(--tk-status-list-text) 54%, transparent);
+  font-size: 0.7rem;
+  font-weight: 560;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+.tk-status-mode .tk-status-list .tk-status-count {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  white-space: nowrap;
+}
+.tk-status-mode .tk-status-list .tk-status-count-divider {
+  width: 0.22rem;
+  height: 0.22rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--tk-status-list-text) 42%, transparent);
+}
+@media (max-width: 760px) {
+  /* 窄屏 footer 单列：统计 row1、动作 row2、特性占位 row3 */
+.tk-status-mode .tk-status-list .tk-status-stream-counts {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    gap: 0.34rem;
+}
+.tk-status-mode .tk-status-list .tk-status-stream-identity {
+    max-width: 100%;
+    padding: 0.14rem 0.52rem 0.14rem 0.16rem;
 }
 }
 
