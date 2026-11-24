@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-23T07:05:44.750Z",
+  "generatedAt": "2026-11-24T11:54:38.719Z",
   "assets": [
     {
       "from": "apps/twikoo/public/twikoo.min.js",
       "to": "apps/minsp-static-assets/twikoo/twikoo.min.js",
-      "size": 1120291
+      "size": 1120717
     },
     {
       "from": "apps/twikoo/public/twikoo.min.js.LICENSE.txt",
